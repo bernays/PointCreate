@@ -1,0 +1,1502 @@
+<OI DESCR="Cooling Only VAV" NAME="Rm110" TYPE="bacnet.b3.Device">
+    <PI Name="APDUSegmentTimeout" Value="2000" />
+    <PI Name="APDUTimeout" Value="3000" />
+    <PI Name="ApplicationVersion" Value="Firmware 4.501076" />
+    <PI Name="BackupFailureTimeout" Value="20" />
+    <PI Name="BackupPath" Value="" />
+    <PI Name="DaylightSavingsStatus" Value="1" />
+    <PI Name="FirmwareRevision" Value="Bootloader 4.501076/4.501076" />
+    <PI Name="LastBackupTime" Null="1" />
+    <PI Name="Location" Value="" />
+    <PI Name="MaxApduLengthAccepted" Value="478" />
+    <PI Name="MaxInfoFrames" Value="2" />
+    <PI Name="MaxMaster" Value="127" />
+    <PI Name="MaxSegmentsAccepted" Value="2" />
+    <PI Name="ModelName" Value="b3866" />
+    <PI Name="NumberOfApduRetries" Value="3" />
+    <PI Name="ObjectTypesSupported" Value="274810142720" />
+    <PI Name="ProtocolRevision" Value="6" />
+    <PI Name="ProtocolVersion" Value="1" />
+    <PI Name="SegmentationSupported" Value="0" />
+    <PI Name="ServicesSupported" Value="855768578297" />
+    <PI Name="TypeCode" Value="8" />
+    <PI Name="UTCOffset" Value="0" />
+    <PI Name="VendorIdentifier" Value="10" />
+    <PI Name="VendorName" Value="Schneider Electric" />
+    <OI NAME="Application" TYPE="bacnet.b3.B3ApplicationProxy" declared="1">
+        <OI NAME="Alarms" TYPE="bacnet.b3.systemvariable.ReadOnlyUInt32" declared="1">
+            <PI Name="BACnetName" Value="Alarms" />
+            <PI Name="SystemVariableId" Value="214" />
+        </OI>
+        <OI NAME="Date" TYPE="bacnet.b3.systemvariable.ReadOnlyTimeStamp" declared="1">
+            <PI Name="BACnetName" Value="Date" />
+            <PI Name="SystemVariableId" Value="211" />
+        </OI>
+        <OI NAME="DayofMonth" TYPE="bacnet.b3.systemvariable.ReadOnlyUInt32" declared="1">
+            <PI Name="BACnetName" Value="DayofMonth" />
+            <PI Name="SystemVariableId" Value="205" />
+        </OI>
+        <OI NAME="DayofYear" TYPE="bacnet.b3.systemvariable.ReadOnlyUInt32" declared="1">
+            <PI Name="BACnetName" Value="DayofYear" />
+            <PI Name="SystemVariableId" Value="210" />
+        </OI>
+        <OI NAME="Errors" TYPE="bacnet.b3.systemvariable.Errors" declared="1">
+            <PI Name="BACnetName" Value="Errors" />
+            <PI Name="SystemVariableId" Value="213" />
+        </OI>
+        <OI NAME="FlashWRCount" TYPE="bacnet.b3.systemvariable.ReadOnlyUInt32" declared="1">
+            <PI Name="BACnetName" Value="FlashWRCount" />
+            <PI Name="SystemVariableId" Value="229" />
+        </OI>
+        <OI NAME="FreeMem" TYPE="bacnet.b3.systemvariable.ReadOnlyUInt32" declared="1">
+            <PI Name="BACnetName" Value="FreeMem" />
+            <PI Name="SystemVariableId" Value="215" />
+        </OI>
+        <OI NAME="Hour" TYPE="bacnet.b3.systemvariable.UInt32" declared="1">
+            <PI Name="BACnetName" Value="Hour" />
+            <PI Name="SystemVariableId" Value="203" />
+        </OI>
+        <OI NAME="HourofDay" TYPE="bacnet.b3.systemvariable.Real" declared="1">
+            <PI Name="BACnetName" Value="HourofDay" />
+            <PI Name="SystemVariableId" Value="208" />
+        </OI>
+        <OI NAME="LastBackup" TYPE="bacnet.b3.systemvariable.ReadOnlyTimeStamp" declared="1">
+            <PI Name="BACnetName" Value="LastBackup" />
+            <PI Name="SystemVariableId" Value="242" />
+        </OI>
+        <OI NAME="LcdAnswerString" TYPE="bacnet.b3.systemvariable.ReadOnlyString" declared="1">
+            <PI Name="BACnetName" Value="LcdAnswerString" />
+            <PI Name="SystemVariableId" Value="241" />
+        </OI>
+        <OI NAME="LcdBackLight" TYPE="bacnet.b3.systemvariable.DigitalOnOff" declared="1">
+            <PI Name="BACnetName" Value="LcdBackLight" />
+            <PI Name="SystemVariableId" Value="240" />
+        </OI>
+        <OI NAME="LcdDisplayLine1" TYPE="bacnet.b3.systemvariable.String" declared="1">
+            <PI Name="BACnetName" Value="LcdDisplayLine1" />
+            <PI Name="SystemVariableId" Value="238" />
+        </OI>
+        <OI NAME="LcdDisplayLine2" TYPE="bacnet.b3.systemvariable.String" declared="1">
+            <PI Name="BACnetName" Value="LcdDisplayLine2" />
+            <PI Name="SystemVariableId" Value="237" />
+        </OI>
+        <OI NAME="LcdDisplayLine3" TYPE="bacnet.b3.systemvariable.String" declared="1">
+            <PI Name="BACnetName" Value="LcdDisplayLine3" />
+            <PI Name="SystemVariableId" Value="236" />
+        </OI>
+        <OI NAME="LcdDisplayLine4" TYPE="bacnet.b3.systemvariable.String" declared="1">
+            <PI Name="BACnetName" Value="LcdDisplayLine4" />
+            <PI Name="SystemVariableId" Value="235" />
+        </OI>
+        <OI NAME="LcdDisplayMode" TYPE="bacnet.b3.systemvariable.LcdDisplayMode" declared="1">
+            <PI Name="BACnetName" Value="LcdDisplayMode" />
+            <PI Name="SystemVariableId" Value="239" />
+        </OI>
+        <OI NAME="LcdKeyStroke" TYPE="bacnet.b3.systemvariable.Errors" declared="1">
+            <PI Name="BACnetName" Value="LcdKeyStroke" />
+            <PI Name="SystemVariableId" Value="234" />
+        </OI>
+        <OI NAME="LcdPassword" TYPE="bacnet.b3.systemvariable.UInt32" declared="1">
+            <PI Name="BACnetName" Value="LcdPassword" />
+            <PI Name="SystemVariableId" Value="255" />
+        </OI>
+        <OI NAME="LcdTimeFormat" TYPE="bacnet.b3.systemvariable.LcdTimeFormat" declared="1">
+            <PI Name="BACnetName" Value="LcdTimeFormat" />
+            <PI Name="SystemVariableId" Value="233" />
+        </OI>
+        <OI NAME="LcdUserPresent" TYPE="bacnet.b3.systemvariable.ReadOnlyDigital" declared="1">
+            <PI Name="BACnetName" Value="LcdUserPresent" />
+            <PI Name="SystemVariableId" Value="231" />
+        </OI>
+        <OI NAME="LcdViewPassword" TYPE="bacnet.b3.systemvariable.UInt32" declared="1">
+            <PI Name="BACnetName" Value="LcdViewPassword" />
+            <PI Name="SystemVariableId" Value="232" />
+        </OI>
+        <OI NAME="Minute" TYPE="bacnet.b3.systemvariable.ReadOnlyUInt32" declared="1">
+            <PI Name="BACnetName" Value="Minute" />
+            <PI Name="SystemVariableId" Value="202" />
+        </OI>
+        <OI NAME="Month" TYPE="bacnet.b3.systemvariable.Month" declared="1">
+            <PI Name="BACnetName" Value="Month" />
+            <PI Name="SystemVariableId" Value="206" />
+        </OI>
+        <OI NAME="PowerFail" TYPE="bacnet.b3.systemvariable.ReadOnlyDigitalOnOff" declared="1">
+            <PI Name="BACnetName" Value="PowerFail" />
+            <PI Name="SystemVariableId" Value="217" />
+        </OI>
+        <OI NAME="PowerUpTime" TYPE="bacnet.b3.systemvariable.ReadOnlyTimeStamp" declared="1">
+            <PI Name="BACnetName" Value="PowerUpTime" />
+            <PI Name="SystemVariableId" Value="218" />
+        </OI>
+        <OI NAME="RestartMode" TYPE="bacnet.b3.systemvariable.RestartMode" declared="1">
+            <PI Name="BACnetName" Value="RestartMode" />
+            <PI Name="SystemVariableId" Value="228" />
+        </OI>
+        <OI NAME="Scan" TYPE="bacnet.b3.systemvariable.Real" declared="1">
+            <PI Name="BACnetName" Value="Scan" />
+            <PI Name="SystemVariableId" Value="212" />
+        </OI>
+        <OI NAME="Second" TYPE="bacnet.b3.systemvariable.ReadOnlyUInt32" declared="1">
+            <PI Name="BACnetName" Value="Second" />
+            <PI Name="SystemVariableId" Value="201" />
+        </OI>
+        <OI NAME="StatusBackup" TYPE="bacnet.b3.systemvariable.BackupStatus" declared="1">
+            <PI Name="BACnetName" Value="StatusBackup" />
+            <PI Name="SystemVariableId" Value="243" />
+        </OI>
+        <OI NAME="StatusFlash" TYPE="bacnet.b3.systemvariable.FlashStatus" declared="1">
+            <PI Name="BACnetName" Value="StatusFlash" />
+            <PI Name="SystemVariableId" Value="230" />
+        </OI>
+        <OI NAME="TimeofDay" TYPE="bacnet.b3.systemvariable.ReadOnlyTimeStamp" declared="1">
+            <PI Name="BACnetName" Value="TimeofDay" />
+            <PI Name="SystemVariableId" Value="209" />
+        </OI>
+        <OI NAME="Version" TYPE="bacnet.b3.systemvariable.Real" declared="1">
+            <PI Name="BACnetName" Value="Version" />
+            <PI Name="SystemVariableId" Value="216" />
+        </OI>
+        <OI NAME="WeekDay" TYPE="bacnet.b3.systemvariable.DayOfWeek" declared="1">
+            <PI Name="BACnetName" Value="WeekDay" />
+            <PI Name="SystemVariableId" Value="204" />
+        </OI>
+        <OI NAME="Year" TYPE="bacnet.b3.systemvariable.Year" declared="1">
+            <PI Name="BACnetName" Value="Year" />
+            <PI Name="SystemVariableId" Value="207" />
+        </OI>
+        <OI DESCR="AHU Status" NAME="AhuStatus" TYPE="bacnet.b3.point.digital.Value">
+            <PI Name="ActiveText" Value="On" />
+            <PI Name="AlarmMessage" Value="" />
+            <PI Name="AlarmValue" Value="0" />
+            <PI Name="BACnetName" Value="AhuStatus" />
+            <PI Name="ChangeOfStateCount" RefNull="1" />
+            <PI Name="ChangeOfStateTime" RefNull="1" />
+            <PI Name="ElapsedActiveTime" RefNull="1" />
+            <PI Name="EventEnable" Value="0" />
+            <PI Name="FaultMessage" Value="" />
+            <PI Name="ForeignAddress" Value="&lt;binary-value,      72&gt;" />
+            <PI Name="InactiveText" Value="Off" />
+            <PI Name="MinimumOffTime" Value="0" />
+            <PI Name="MinimumOnTime" Value="0" />
+            <PI Name="NotificationClass" RefNull="1" />
+            <PI Name="NotifyType" Value="0" />
+            <PI Name="Priority1" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+            <PI Name="Priority10" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+            <PI Name="Priority11" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+            <PI Name="Priority12" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+            <PI Name="Priority13" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+            <PI Name="Priority14" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+            <PI Name="Priority15" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+            <PI Name="Priority16" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+            <PI Name="Priority2" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+            <PI Name="Priority3" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+            <PI Name="Priority4" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+            <PI Name="Priority5" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+            <PI Name="Priority6" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+            <PI Name="Priority7" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+            <PI Name="Priority8" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+            <PI Name="Priority9" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+            <PI Name="RelinquishDefault" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" Value="0" />
+            <PI Name="ResetMessage" Value="" />
+            <PI Name="TimeDelay" Value="0" />
+            <PI Name="TimeOfActiveTimeReset" RefNull="1" />
+            <PI Name="TimeOfStateCountReset" RefNull="1" />
+            <PI Name="Value" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+        </OI>
+        <OI DESCR="Supply Flow Calculation" NAME="Kf" TYPE="bacnet.b3.point.analog.Value">
+            <PI Name="AlarmMessage" Value="" />
+            <PI Name="BACnetName" Value="Kf" />
+            <PI Name="COVIncrement" Value="10" />
+            <PI Name="Deadband" Value="0" />
+            <PI Name="EventEnable" Value="0" />
+            <PI Name="FaultMessage" Value="" />
+            <PI Name="ForeignAddress" Value="&lt;analog-value,     100&gt;" />
+            <PI Name="HighLimit" Value="0" />
+            <PI Name="LimitEnable" Value="0" />
+            <PI Name="LogInterval" Value="10" />
+            <PI Name="LogSize" Value="0" />
+            <PI Name="LogType" Value="0" />
+            <PI Name="LowLimit" Value="0" />
+            <PI Name="NotificationClass" RefNull="1" />
+            <PI Name="NotifyType" Value="0" />
+            <PI Name="Priority1" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority10" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority11" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority12" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority13" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority14" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority15" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority16" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority2" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority3" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority4" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority5" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority6" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority7" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority8" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority9" RefNull="1" Unit="0x10001" />
+            <PI Name="RelinquishDefault" Unit="0x10001" Value="0" />
+            <PI Name="ResetMessage" Value="" />
+            <PI Name="SetPoint" Value="1" />
+            <PI Name="TimeDelay" Value="0" />
+            <PI Name="Value" RefNull="1" RetainLevel="ColdStart" Value="300" />
+        </OI>
+        <OI DESCR="Supply Flow Calculation" NAME="Kv" TYPE="bacnet.b3.point.analog.Value">
+            <PI Name="AlarmMessage" Value="" />
+            <PI Name="BACnetName" Value="Kv" />
+            <PI Name="COVIncrement" Value="0.01" />
+            <PI Name="Deadband" Value="0" />
+            <PI Name="EventEnable" Value="0" />
+            <PI Name="FaultMessage" Value="" />
+            <PI Name="ForeignAddress" Value="&lt;analog-value,      99&gt;" />
+            <PI Name="HighLimit" Value="0" />
+            <PI Name="LimitEnable" Value="0" />
+            <PI Name="LogInterval" Value="10" />
+            <PI Name="LogSize" Value="0" />
+            <PI Name="LogType" Value="0" />
+            <PI Name="LowLimit" Value="0" />
+            <PI Name="NotificationClass" RefNull="1" />
+            <PI Name="NotifyType" Value="0" />
+            <PI Name="Priority1" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority10" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority11" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority12" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority13" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority14" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority15" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority16" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority2" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority3" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority4" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority5" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority6" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority7" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority8" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority9" RefNull="1" Unit="0x10001" />
+            <PI Name="RelinquishDefault" Unit="0x10001" Value="0" />
+            <PI Name="ResetMessage" Value="" />
+            <PI Name="SetPoint" Value="1" />
+            <PI Name="TimeDelay" Value="0" />
+            <PI Name="Value" RefNull="1" RetainLevel="ColdStart" Value="0.9" />
+        </OI>
+        <OI DESCR="SBO Filter Function" NAME="SBOFltr_Fn" TYPE="private.Cfe5be4544a1e11b2abd800500601e911">
+            <PI Name="BACnetName" Value="SBOFltr_Fn" />
+            <PI Name="ForeignAddress" Value="&lt;proprietary,       1&gt;" />
+        </OI>
+        <OI DESCR="Supply Flow" NAME="SaDprFl" TYPE="bacnet.b3.point.analog.Value">
+            <PI Name="AlarmMessage" Value="" />
+            <PI Name="BACnetName" Value="SaDprFl" />
+            <PI Name="COVIncrement" Value="10" />
+            <PI Name="Deadband" Value="0" />
+            <PI Name="EventEnable" Value="0" />
+            <PI Name="FaultMessage" Value="" />
+            <PI Name="ForeignAddress" Value="&lt;analog-value,      57&gt;" />
+            <PI Name="HighLimit" Value="0" />
+            <PI Name="LimitEnable" Value="0" />
+            <PI Name="LogInterval" Value="900" />
+            <PI Name="LogSize" Value="96" />
+            <PI Name="LogType" Value="2" />
+            <PI Name="LowLimit" Value="0" />
+            <PI Name="NotificationClass" RefNull="1" />
+            <PI Name="NotifyType" Value="0" />
+            <PI Name="Priority1" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority10" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority11" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority12" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority13" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority14" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority15" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority16" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority2" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority3" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority4" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority5" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority6" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority7" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority8" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority9" RefNull="1" Unit="0x10001" />
+            <PI Name="RelinquishDefault" Unit="0x10001" Value="0" />
+            <PI Name="ResetMessage" Value="" />
+            <PI Name="TimeDelay" Value="0" />
+        </OI>
+        <OI DESCR="Supply Air Velocity Pressure" NAME="SaVPr" TYPE="bacnet.b3.point.analog.Input">
+            <PI Name="AlarmMessage" Value="" />
+            <PI Name="BACnetName" Value="SaVPr" />
+            <PI Name="COVIncrement" Value="0.01" />
+            <PI Name="Channel" Value="7" />
+            <PI Name="Deadband" Value="0" />
+            <PI Name="DeviceType" Value="" />
+            <PI Name="ElecScaleTop" Value="1" />
+            <PI Name="EngScaleTop" Value="1" />
+            <PI Name="EventEnable" Value="0" />
+            <PI Name="FaultMessage" Value="" />
+            <PI Name="ForeignAddress" Value="&lt;analog-input,      28&gt;" />
+            <PI Name="HighLimit" Value="0" />
+            <PI Name="LimitEnable" Value="0" />
+            <PI Name="LowLimit" Value="0" />
+            <PI Name="MaxPresValue" Value="0" />
+            <PI Name="MinPresValue" Value="0" />
+            <PI Name="NotificationClass" RefNull="1" />
+            <PI Name="NotifyType" Value="0" />
+            <PI Name="ResetMessage" Value="" />
+            <PI Name="Resolution" Value="0" />
+            <PI Name="Threshold" Value="0.01" />
+            <PI Name="TimeDelay" Value="0" />
+            <PI Name="UpdateInterval" Value="0" />
+        </OI>
+        <OI DESCR="Air Flow Calculations" NAME="AirFlowCalcs_Pr" TYPE="private.Cffef06344a1e11b2a1ed00500601e911">
+            <PI Name="BACnetName" Value="AirFlowCalcs_Pr" />
+            <PI Name="ForeignAddress" Value="&lt;proprietary,       7&gt;" />
+            <PI Name="Kf">
+                <Reference DeltaFilter="0" Object="../Kf" Property="Value" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="Kv">
+                <Reference DeltaFilter="0" Object="../Kv" Property="Value" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="SBOFltr_Fn">
+                <Reference DeltaFilter="0" Object="../SBOFltr_Fn" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="SaDprFl">
+                <Reference DeltaFilter="0" Object="../SaDprFl" Property="Value" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="SaVPr">
+                <Reference DeltaFilter="0" Object="../SaVPr" Property="Value" Retransmit="0" TransferRate="10" />
+            </PI>
+        </OI>
+        <OI DESCR="Occupancy Mode" NAME="Occp" TYPE="bacnet.b3.point.digital.Value">
+            <PI Name="ActiveText" Value="Occupied" />
+            <PI Name="AlarmMessage" Value="" />
+            <PI Name="AlarmValue" Value="0" />
+            <PI Name="BACnetName" Value="Occp" />
+            <PI Name="ChangeOfStateCount" RefNull="1" />
+            <PI Name="ChangeOfStateTime" RefNull="1" />
+            <PI Name="ElapsedActiveTime" RefNull="1" />
+            <PI Name="EventEnable" Value="0" />
+            <PI Name="FaultMessage" Value="" />
+            <PI Name="ForeignAddress" Value="&lt;binary-value,      74&gt;" />
+            <PI Name="InactiveText" Value="UnOccupied" />
+            <PI Name="MinimumOffTime" Value="0" />
+            <PI Name="MinimumOnTime" Value="0" />
+            <PI Name="NotificationClass" RefNull="1" />
+            <PI Name="NotifyType" Value="0" />
+            <PI Name="Priority1" RefNull="1" Type="public.aaaijgk6qdq7r6da5a53wvdqvs_aaaijgk6qdq7r6da5a5yapk4s7" />
+            <PI Name="Priority10" RefNull="1" Type="public.aaaijgk6qdq7r6da5a53wvdqvs_aaaijgk6qdq7r6da5a5yapk4s7" />
+            <PI Name="Priority11" RefNull="1" Type="public.aaaijgk6qdq7r6da5a53wvdqvs_aaaijgk6qdq7r6da5a5yapk4s7" />
+            <PI Name="Priority12" RefNull="1" Type="public.aaaijgk6qdq7r6da5a53wvdqvs_aaaijgk6qdq7r6da5a5yapk4s7" />
+            <PI Name="Priority13" RefNull="1" Type="public.aaaijgk6qdq7r6da5a53wvdqvs_aaaijgk6qdq7r6da5a5yapk4s7" />
+            <PI Name="Priority14" RefNull="1" Type="public.aaaijgk6qdq7r6da5a53wvdqvs_aaaijgk6qdq7r6da5a5yapk4s7" />
+            <PI Name="Priority15" RefNull="1" Type="public.aaaijgk6qdq7r6da5a53wvdqvs_aaaijgk6qdq7r6da5a5yapk4s7" />
+            <PI Name="Priority16" RefNull="1" Type="public.aaaijgk6qdq7r6da5a53wvdqvs_aaaijgk6qdq7r6da5a5yapk4s7" />
+            <PI Name="Priority2" RefNull="1" Type="public.aaaijgk6qdq7r6da5a53wvdqvs_aaaijgk6qdq7r6da5a5yapk4s7" />
+            <PI Name="Priority3" RefNull="1" Type="public.aaaijgk6qdq7r6da5a53wvdqvs_aaaijgk6qdq7r6da5a5yapk4s7" />
+            <PI Name="Priority4" RefNull="1" Type="public.aaaijgk6qdq7r6da5a53wvdqvs_aaaijgk6qdq7r6da5a5yapk4s7" />
+            <PI Name="Priority5" RefNull="1" Type="public.aaaijgk6qdq7r6da5a53wvdqvs_aaaijgk6qdq7r6da5a5yapk4s7" />
+            <PI Name="Priority6" RefNull="1" Type="public.aaaijgk6qdq7r6da5a53wvdqvs_aaaijgk6qdq7r6da5a5yapk4s7" />
+            <PI Name="Priority7" RefNull="1" Type="public.aaaijgk6qdq7r6da5a53wvdqvs_aaaijgk6qdq7r6da5a5yapk4s7" />
+            <PI Name="Priority8" RefNull="1" Type="public.aaaijgk6qdq7r6da5a53wvdqvs_aaaijgk6qdq7r6da5a5yapk4s7" />
+            <PI Name="Priority9" RefNull="1" Type="public.aaaijgk6qdq7r6da5a53wvdqvs_aaaijgk6qdq7r6da5a5yapk4s7" />
+            <PI Name="RelinquishDefault" Type="public.aaaijgk6qdq7r6da5a53wvdqvs_aaaijgk6qdq7r6da5a5yapk4s7" Value="0" />
+            <PI Name="ResetMessage" Value="" />
+            <PI Name="TimeDelay" Value="0" />
+            <PI Name="TimeOfActiveTimeReset" RefNull="1" />
+            <PI Name="TimeOfStateCountReset" RefNull="1" />
+            <PI Name="Value" RefNull="1" Type="public.aaaijgk6qdq7r6da5a53wvdqvs_aaaijgk6qdq7r6da5a5yapk4s7" />
+        </OI>
+        <OI DESCR="Room Cooling Setpoint" NAME="RmClgSpt" TYPE="bacnet.b3.point.analog.Value">
+            <PI Name="AlarmMessage" Value="" />
+            <PI Name="BACnetName" Value="RmClgSpt" />
+            <PI Name="COVIncrement" Value="0.1" />
+            <PI Name="Deadband" Value="0" />
+            <PI Name="EventEnable" Value="0" />
+            <PI Name="FaultMessage" Value="" />
+            <PI Name="ForeignAddress" Value="&lt;analog-value,      59&gt;" />
+            <PI Name="HighLimit" Value="0" />
+            <PI Name="LimitEnable" Value="0" />
+            <PI Name="LogInterval" Value="900" />
+            <PI Name="LogSize" Value="96" />
+            <PI Name="LogType" Value="2" />
+            <PI Name="LowLimit" Value="0" />
+            <PI Name="NotificationClass" RefNull="1" />
+            <PI Name="NotifyType" Value="0" />
+            <PI Name="Priority1" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority10" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority11" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority12" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority13" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority14" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority15" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority16" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority2" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority3" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority4" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority5" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority6" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority7" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority8" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority9" RefNull="1" Unit="0x10001" />
+            <PI Name="RelinquishDefault" Unit="0x10001" Value="0" />
+            <PI Name="ResetMessage" Value="" />
+            <PI Name="TimeDelay" Value="0" />
+        </OI>
+        <OI DESCR="Room Temperature" NAME="RmTmp" TYPE="bacnet.b3.point.analog.Input">
+            <PI Name="AlarmMessage" Value="" />
+            <PI Name="BACnetName" Value="RmTmp" />
+            <PI Name="COVIncrement" Value="0.1" />
+            <PI Name="Channel" Value="1" />
+            <PI Name="Deadband" Value="0" />
+            <PI Name="DeviceType" Value="" />
+            <PI Name="ElectricType" Value="3" />
+            <PI Name="EventEnable" Value="0" />
+            <PI Name="FaultMessage" Value="" />
+            <PI Name="ForeignAddress" Value="&lt;analog-input,      23&gt;" />
+            <PI Name="HighLimit" Value="0" />
+            <PI Name="LimitEnable" Value="0" />
+            <PI Name="LogInterval" Value="900" />
+            <PI Name="LogSize" Value="96" />
+            <PI Name="LogType" Value="2" />
+            <PI Name="LowLimit" Value="0" />
+            <PI Name="MaxPresValue" Value="0" />
+            <PI Name="MinPresValue" Value="0" />
+            <PI Name="NotificationClass" RefNull="1" />
+            <PI Name="NotifyType" Value="0" />
+            <PI Name="ResetMessage" Value="" />
+            <PI Name="Resolution" Value="0" />
+            <PI Name="Threshold" Value="0.1" />
+            <PI Name="TimeDelay" Value="0" />
+            <PI Name="UpdateInterval" Value="0" />
+        </OI>
+        <OI DESCR="Room Temp Alarm (Graphic Bind)" NAME="RmTmpAlm" TYPE="bacnet.b3.point.digital.Value">
+            <PI Name="ActiveText" Value="Alarm" />
+            <PI Name="AlarmMessage" Value="" />
+            <PI Name="AlarmValue" Value="0" />
+            <PI Name="BACnetName" Value="RmTmpAlm" />
+            <PI Name="ChangeOfStateCount" RefNull="1" />
+            <PI Name="ChangeOfStateTime" RefNull="1" />
+            <PI Name="ElapsedActiveTime" RefNull="1" />
+            <PI Name="EventEnable" Value="0" />
+            <PI Name="FaultMessage" Value="" />
+            <PI Name="ForeignAddress" Value="&lt;binary-value,     101&gt;" />
+            <PI Name="InactiveText" Value="Normal" />
+            <PI Name="MinimumOffTime" Value="0" />
+            <PI Name="MinimumOnTime" Value="0" />
+            <PI Name="NotificationClass" RefNull="1" />
+            <PI Name="NotifyType" Value="0" />
+            <PI Name="Priority1" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+            <PI Name="Priority10" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+            <PI Name="Priority11" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+            <PI Name="Priority12" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+            <PI Name="Priority13" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+            <PI Name="Priority14" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+            <PI Name="Priority15" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+            <PI Name="Priority16" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+            <PI Name="Priority2" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+            <PI Name="Priority3" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+            <PI Name="Priority4" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+            <PI Name="Priority5" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+            <PI Name="Priority6" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+            <PI Name="Priority7" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+            <PI Name="Priority8" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+            <PI Name="Priority9" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+            <PI Name="RelinquishDefault" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" Value="0" />
+            <PI Name="ResetMessage" Value="" />
+            <PI Name="TimeDelay" Value="0" />
+            <PI Name="TimeOfActiveTimeReset" RefNull="1" />
+            <PI Name="TimeOfStateCountReset" RefNull="1" />
+            <PI Name="Value" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+        </OI>
+        <OI DESCR="Room Temp High Alarm" NAME="RmTmpHiAlm" TYPE="bacnet.b3.point.digital.Value">
+            <PI Name="ActiveText" Value="Alarm" />
+            <PI Name="AlarmMessage" Value="" />
+            <PI Name="AlarmValue" Value="0" />
+            <PI Name="BACnetName" Value="RmTmpHiAlm" />
+            <PI Name="ChangeOfStateCount" RefNull="1" />
+            <PI Name="ChangeOfStateTime" RefNull="1" />
+            <PI Name="ElapsedActiveTime" RefNull="1" />
+            <PI Name="EventEnable" Value="0" />
+            <PI Name="FaultMessage" Value="" />
+            <PI Name="ForeignAddress" Value="&lt;binary-value,      63&gt;" />
+            <PI Name="InactiveText" Value="Normal" />
+            <PI Name="MinimumOffTime" Value="0" />
+            <PI Name="MinimumOnTime" Value="0" />
+            <PI Name="NotificationClass" RefNull="1" />
+            <PI Name="NotifyType" Value="0" />
+            <PI Name="Priority1" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+            <PI Name="Priority10" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+            <PI Name="Priority11" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+            <PI Name="Priority12" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+            <PI Name="Priority13" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+            <PI Name="Priority14" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+            <PI Name="Priority15" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+            <PI Name="Priority16" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+            <PI Name="Priority2" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+            <PI Name="Priority3" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+            <PI Name="Priority4" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+            <PI Name="Priority5" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+            <PI Name="Priority6" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+            <PI Name="Priority7" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+            <PI Name="Priority8" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+            <PI Name="Priority9" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+            <PI Name="RelinquishDefault" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" Value="0" />
+            <PI Name="ResetMessage" Value="" />
+            <PI Name="TimeDelay" Value="0" />
+            <PI Name="TimeOfActiveTimeReset" RefNull="1" />
+            <PI Name="TimeOfStateCountReset" RefNull="1" />
+            <PI Name="Value" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+        </OI>
+        <OI DESCR="Room Temp Low Alarm" NAME="RmTmpLoAlm" TYPE="bacnet.b3.point.digital.Value">
+            <PI Name="ActiveText" Value="Alarm" />
+            <PI Name="AlarmMessage" Value="" />
+            <PI Name="AlarmValue" Value="0" />
+            <PI Name="BACnetName" Value="RmTmpLoAlm" />
+            <PI Name="ChangeOfStateCount" RefNull="1" />
+            <PI Name="ChangeOfStateTime" RefNull="1" />
+            <PI Name="ElapsedActiveTime" RefNull="1" />
+            <PI Name="EventEnable" Value="0" />
+            <PI Name="FaultMessage" Value="" />
+            <PI Name="ForeignAddress" Value="&lt;binary-value,      64&gt;" />
+            <PI Name="InactiveText" Value="Normal" />
+            <PI Name="MinimumOffTime" Value="0" />
+            <PI Name="MinimumOnTime" Value="0" />
+            <PI Name="NotificationClass" RefNull="1" />
+            <PI Name="NotifyType" Value="0" />
+            <PI Name="Priority1" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+            <PI Name="Priority10" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+            <PI Name="Priority11" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+            <PI Name="Priority12" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+            <PI Name="Priority13" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+            <PI Name="Priority14" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+            <PI Name="Priority15" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+            <PI Name="Priority16" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+            <PI Name="Priority2" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+            <PI Name="Priority3" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+            <PI Name="Priority4" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+            <PI Name="Priority5" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+            <PI Name="Priority6" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+            <PI Name="Priority7" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+            <PI Name="Priority8" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+            <PI Name="Priority9" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+            <PI Name="RelinquishDefault" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" Value="0" />
+            <PI Name="ResetMessage" Value="" />
+            <PI Name="TimeDelay" Value="0" />
+            <PI Name="TimeOfActiveTimeReset" RefNull="1" />
+            <PI Name="TimeOfStateCountReset" RefNull="1" />
+            <PI Name="Value" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+        </OI>
+        <OI DESCR="SBO Range Function" NAME="SBORange_Fn" TYPE="private.Cfdda8df04a1e11b2aa4300500601e911">
+            <PI Name="BACnetName" Value="SBORange_Fn" />
+            <PI Name="ForeignAddress" Value="&lt;proprietary,       4&gt;" />
+        </OI>
+        <OI DESCR="Supply Flow Alarm" NAME="SaDprFlAlm" TYPE="bacnet.b3.point.digital.Value">
+            <PI Name="ActiveText" Value="Alarm" />
+            <PI Name="AlarmMessage" Value="" />
+            <PI Name="AlarmValue" Value="0" />
+            <PI Name="BACnetName" Value="SaDprFlAlm" />
+            <PI Name="EventEnable" Value="0" />
+            <PI Name="FaultMessage" Value="" />
+            <PI Name="ForeignAddress" Value="&lt;binary-value,      65&gt;" />
+            <PI Name="InactiveText" Value="Normal" />
+            <PI Name="MinimumOffTime" Value="0" />
+            <PI Name="MinimumOnTime" Value="0" />
+            <PI Name="NotificationClass" RefNull="1" />
+            <PI Name="NotifyType" Value="0" />
+            <PI Name="Priority1" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+            <PI Name="Priority10" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+            <PI Name="Priority11" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+            <PI Name="Priority12" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+            <PI Name="Priority13" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+            <PI Name="Priority14" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+            <PI Name="Priority15" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+            <PI Name="Priority16" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+            <PI Name="Priority2" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+            <PI Name="Priority3" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+            <PI Name="Priority4" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+            <PI Name="Priority5" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+            <PI Name="Priority6" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+            <PI Name="Priority7" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+            <PI Name="Priority8" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+            <PI Name="Priority9" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+            <PI Name="RelinquishDefault" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" Value="0" />
+            <PI Name="ResetMessage" Value="" />
+            <PI Name="TimeDelay" Value="0" />
+            <PI Name="Value" RefNull="1" Type="public.aaaif6v63pob7ocsujg6mccqyx_aaaif6v63pob7ocsujg4ao466p" />
+        </OI>
+        <OI DESCR="Supply Flow Setpoint" NAME="SaDprFlSpt" TYPE="bacnet.b3.point.analog.Value">
+            <PI Name="AlarmMessage" Value="" />
+            <PI Name="BACnetName" Value="SaDprFlSpt" />
+            <PI Name="COVIncrement" Value="10" />
+            <PI Name="Deadband" Value="0" />
+            <PI Name="EventEnable" Value="0" />
+            <PI Name="FaultMessage" Value="" />
+            <PI Name="ForeignAddress" Value="&lt;analog-value,      60&gt;" />
+            <PI Name="HighLimit" Value="0" />
+            <PI Name="LimitEnable" Value="0" />
+            <PI Name="LogInterval" Value="900" />
+            <PI Name="LogSize" Value="96" />
+            <PI Name="LogType" Value="2" />
+            <PI Name="LowLimit" Value="0" />
+            <PI Name="NotificationClass" RefNull="1" />
+            <PI Name="NotifyType" Value="0" />
+            <PI Name="Priority1" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority10" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority11" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority12" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority13" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority14" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority15" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority16" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority2" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority3" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority4" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority5" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority6" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority7" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority8" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority9" RefNull="1" Unit="0x10001" />
+            <PI Name="RelinquishDefault" Unit="0x10001" Value="0" />
+            <PI Name="ResetMessage" Value="" />
+            <PI Name="TimeDelay" Value="0" />
+        </OI>
+        <OI DESCR="Alarm Mode Calculation" NAME="SystemRntm" TYPE="bacnet.b3.point.analog.Value">
+            <PI Name="AlarmMessage" Value="" />
+            <PI Name="BACnetName" Value="SystemRntm" />
+            <PI Name="COVIncrement" Value="0.1" />
+            <PI Name="Deadband" Value="0" />
+            <PI Name="EventEnable" Value="0" />
+            <PI Name="FaultMessage" Value="" />
+            <PI Name="ForeignAddress" Value="&lt;analog-value,      61&gt;" />
+            <PI Name="HighLimit" Value="0" />
+            <PI Name="LimitEnable" Value="0" />
+            <PI Name="LowLimit" Value="0" />
+            <PI Name="NotificationClass" RefNull="1" />
+            <PI Name="NotifyType" Value="0" />
+            <PI Name="Priority1" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority10" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority11" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority12" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority13" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority14" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority15" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority16" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority2" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority3" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority4" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority5" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority6" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority7" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority8" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority9" RefNull="1" Unit="0x10001" />
+            <PI Name="RelinquishDefault" Unit="0x10001" Value="0" />
+            <PI Name="ResetMessage" Value="" />
+            <PI Name="TimeDelay" Value="0" />
+        </OI>
+        <OI DESCR="Alarm Calculations" NAME="Alarms_Pr" TYPE="private.Cfe9b34064a1e11b2928700500601e911">
+            <PI Name="BACnetName" Value="Alarms_Pr" />
+            <PI Name="ForeignAddress" Value="&lt;proprietary,       8&gt;" />
+            <PI Name="Occp">
+                <Reference DeltaFilter="0" Object="../Occp" Property="Value" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="RmClgSpt">
+                <Reference DeltaFilter="0" Object="../RmClgSpt" Property="Value" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="RmTmp">
+                <Reference DeltaFilter="0" Object="../RmTmp" Property="Value" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="RmTmpAlm">
+                <Reference DeltaFilter="0" Object="../RmTmpAlm" Property="Value" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="RmTmpHiAlm">
+                <Reference DeltaFilter="0" Object="../RmTmpHiAlm" Property="Value" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="RmTmpLoAlm">
+                <Reference DeltaFilter="0" Object="../RmTmpLoAlm" Property="Value" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="SBORange_Fn">
+                <Reference DeltaFilter="0" Object="../SBORange_Fn" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="SaDprFl">
+                <Reference DeltaFilter="0" Object="../SaDprFl" Property="Value" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="SaDprFlAlm">
+                <Reference DeltaFilter="0" Object="../SaDprFlAlm" Property="Value" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="SaDprFlSpt">
+                <Reference DeltaFilter="0" Object="../SaDprFlSpt" Property="Value" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="SystemRntm">
+                <Reference DeltaFilter="0" Object="../SystemRntm" Property="Value" Retransmit="0" TransferRate="10" />
+            </PI>
+        </OI>
+        <OI DESCR="Automatic b3 EPROM Flash Backup" NAME="AutoFlash_Pr" TYPE="private.C0011b8784a1f11b2910300500601e911">
+            <PI Name="BACnetName" Value="AutoFlash_Pr" />
+            <PI Name="ForeignAddress" Value="&lt;proprietary,      32&gt;" />
+        </OI>
+        <OI NAME="BACnet Notification_EN" TYPE="bacnet.b3.NotificationClassProxy">
+            <PI Name="BACnetName" Value="BACnet_Notificat" />
+            <PI Name="ForeignAddress" Value="&lt;notification-class,      36&gt;" />
+            <OI NAME="DE00001" TYPE="bacnet.pt.destination.BACnetDestination" hidden="1">
+                <PI Name="EntryName" Value="StruxureWare Building Operation" />
+                <PI Name="FromHour" Value="0" />
+                <PI Name="FromHundredths" Value="0" />
+                <PI Name="FromMinute" Value="0" />
+                <PI Name="FromSecond" Value="0" />
+                <PI Name="ToHour" Value="23" />
+                <PI Name="ToHundredths" Value="99" />
+                <PI Name="ToMinute" Value="59" />
+                <PI Name="ToSecond" Value="59" />
+                <OI NAME="RE00001" TYPE="bacnet.pt.destination.BACNetGenericRecipient" hidden="1">
+                    <PI Name="DeviceObjectReference">
+                        <Reference DeltaFilter="0" Object="../../../../../.." Retransmit="0" TransferRate="10" />
+                    </PI>
+                    <PI Name="RecipientType" Value="3" />
+                </OI>
+            </OI>
+        </OI>
+        <OI DESCR="Cooling Demand Signal" NAME="ClgDmd" TYPE="bacnet.b3.point.analog.Value">
+            <PI Name="AlarmMessage" Value="" />
+            <PI Name="BACnetName" Value="ClgDmd" />
+            <PI Name="COVIncrement" Value="0.1" />
+            <PI Name="Deadband" Value="0" />
+            <PI Name="EventEnable" Value="0" />
+            <PI Name="FaultMessage" Value="" />
+            <PI Name="ForeignAddress" Value="&lt;analog-value,      86&gt;" />
+            <PI Name="HighLimit" Value="0" />
+            <PI Name="LimitEnable" Value="0" />
+            <PI Name="LowLimit" Value="0" />
+            <PI Name="NotificationClass" RefNull="1" />
+            <PI Name="NotifyType" Value="0" />
+            <PI Name="Priority1" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority10" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority11" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority12" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority13" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority14" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority15" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority16" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority2" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority3" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority4" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority5" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority6" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority7" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority8" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority9" RefNull="1" Unit="0x10001" />
+            <PI Name="RelinquishDefault" Unit="0x10001" Value="0" />
+            <PI Name="ResetMessage" Value="" />
+            <PI Name="TimeDelay" Value="0" />
+        </OI>
+        <OI DESCR="Dead Band Mode" NAME="DeadBand" TYPE="bacnet.b3.point.digital.Value">
+            <PI Name="ActiveText" Value="On" />
+            <PI Name="AlarmMessage" Value="" />
+            <PI Name="AlarmValue" Value="0" />
+            <PI Name="BACnetName" Value="DeadBand" />
+            <PI Name="ChangeOfStateCount" RefNull="1" />
+            <PI Name="ChangeOfStateTime" RefNull="1" />
+            <PI Name="ElapsedActiveTime" RefNull="1" />
+            <PI Name="EventEnable" Value="0" />
+            <PI Name="FaultMessage" Value="" />
+            <PI Name="ForeignAddress" Value="&lt;binary-value,      70&gt;" />
+            <PI Name="InactiveText" Value="Off" />
+            <PI Name="MinimumOffTime" Value="0" />
+            <PI Name="MinimumOnTime" Value="0" />
+            <PI Name="NotificationClass" RefNull="1" />
+            <PI Name="NotifyType" Value="0" />
+            <PI Name="Priority1" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+            <PI Name="Priority10" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+            <PI Name="Priority11" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+            <PI Name="Priority12" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+            <PI Name="Priority13" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+            <PI Name="Priority14" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+            <PI Name="Priority15" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+            <PI Name="Priority16" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+            <PI Name="Priority2" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+            <PI Name="Priority3" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+            <PI Name="Priority4" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+            <PI Name="Priority5" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+            <PI Name="Priority6" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+            <PI Name="Priority7" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+            <PI Name="Priority8" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+            <PI Name="Priority9" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+            <PI Name="RelinquishDefault" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" Value="0" />
+            <PI Name="ResetMessage" Value="" />
+            <PI Name="TimeDelay" Value="0" />
+            <PI Name="TimeOfActiveTimeReset" RefNull="1" />
+            <PI Name="TimeOfStateCountReset" RefNull="1" />
+            <PI Name="Value" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+        </OI>
+        <OI DESCR="Heating Demand Signal" NAME="HtgDmd" TYPE="bacnet.b3.point.analog.Value">
+            <PI Name="AlarmMessage" Value="" />
+            <PI Name="BACnetName" Value="HtgDmd" />
+            <PI Name="COVIncrement" Value="0.1" />
+            <PI Name="Deadband" Value="0" />
+            <PI Name="EventEnable" Value="0" />
+            <PI Name="FaultMessage" Value="" />
+            <PI Name="ForeignAddress" Value="&lt;analog-value,      68&gt;" />
+            <PI Name="HighLimit" Value="0" />
+            <PI Name="LimitEnable" Value="0" />
+            <PI Name="LowLimit" Value="0" />
+            <PI Name="NotificationClass" RefNull="1" />
+            <PI Name="NotifyType" Value="0" />
+            <PI Name="Priority1" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority10" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority11" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority12" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority13" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority14" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority15" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority16" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority2" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority3" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority4" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority5" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority6" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority7" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority8" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority9" RefNull="1" Unit="0x10001" />
+            <PI Name="RelinquishDefault" Unit="0x10001" Value="0" />
+            <PI Name="ResetMessage" Value="" />
+            <PI Name="TimeDelay" Value="0" />
+        </OI>
+        <OI DESCR="Imported Values" NAME="Import_Pr" TYPE="private.Cfe68c0e84a1e11b285db00500601e911">
+            <PI Name="AhuStatus">
+                <Reference DeltaFilter="0" Object="../AhuStatus" Property="Value" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="AhuStatusIN">
+                <Reference DeltaFilter="0" Object="../../../../Application/AHUStatus" Property="Value" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="BACnetName" Value="Import_Pr" />
+            <PI Name="ForeignAddress" Value="&lt;proprietary,       9&gt;" />
+            <PI Name="Occp">
+                <Reference DeltaFilter="0" Object="../Occp" Property="Value" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="OccpIN">
+                <Reference DeltaFilter="0" Object="../../../../Application/Occ" Property="Value" Retransmit="0" TransferRate="10" />
+            </PI>
+        </OI>
+        <OI DESCR="Supply Damper Interlock" NAME="SaDprPosIntlk" TYPE="bacnet.b3.point.digital.Value">
+            <PI Name="ActiveText" Value="On" />
+            <PI Name="AlarmMessage" Value="" />
+            <PI Name="AlarmValue" Value="0" />
+            <PI Name="BACnetName" Value="SaDprPosIntlk" />
+            <PI Name="EventEnable" Value="0" />
+            <PI Name="FaultMessage" Value="" />
+            <PI Name="ForeignAddress" Value="&lt;binary-value,      78&gt;" />
+            <PI Name="InactiveText" Value="Off" />
+            <PI Name="MinimumOffTime" Value="0" />
+            <PI Name="MinimumOnTime" Value="0" />
+            <PI Name="NotificationClass" RefNull="1" />
+            <PI Name="NotifyType" Value="0" />
+            <PI Name="Priority1" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+            <PI Name="Priority10" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+            <PI Name="Priority11" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+            <PI Name="Priority12" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+            <PI Name="Priority13" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+            <PI Name="Priority14" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+            <PI Name="Priority15" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+            <PI Name="Priority16" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+            <PI Name="Priority2" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+            <PI Name="Priority3" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+            <PI Name="Priority4" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+            <PI Name="Priority5" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+            <PI Name="Priority6" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+            <PI Name="Priority7" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+            <PI Name="Priority8" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+            <PI Name="Priority9" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+            <PI Name="RelinquishDefault" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" Value="0" />
+            <PI Name="ResetMessage" Value="" />
+            <PI Name="TimeDelay" Value="0" />
+            <PI Name="Value" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+        </OI>
+        <OI DESCR="Interlock Logic" NAME="Interlocks_Pr" TYPE="private.Cfe84c81a4a1e11b298d000500601e911">
+            <PI Name="AhuStatus">
+                <Reference DeltaFilter="0" Object="../AhuStatus" Property="Value" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="BACnetName" Value="Interlocks_Pr" />
+            <PI Name="ForeignAddress" Value="&lt;proprietary,      10&gt;" />
+            <PI Name="SaDprPosIntlk">
+                <Reference DeltaFilter="0" Object="../SaDprPosIntlk" Property="Value" Retransmit="0" TransferRate="10" />
+            </PI>
+        </OI>
+        <OI DESCR="Operational Mode Calculations" NAME="Operational_Pr" TYPE="private.Cff2350e84a1e11b294d700500601e911">
+            <PI Name="AhuStatus">
+                <Reference DeltaFilter="0" Object="../AhuStatus" Property="Value" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="BACnetName" Value="Operational_Pr" />
+            <PI Name="ForeignAddress" Value="&lt;proprietary,      13&gt;" />
+            <PI Name="SystemRntm">
+                <Reference DeltaFilter="0" Object="../SystemRntm" Property="Value" Retransmit="0" TransferRate="10" />
+            </PI>
+        </OI>
+        <OI DESCR="Room Temp Base Setpoint" NAME="RmBaseSpt" TYPE="bacnet.b3.point.analog.Value">
+            <PI Name="AlarmMessage" Value="" />
+            <PI Name="BACnetName" Value="RmBaseSpt" />
+            <PI Name="COVIncrement" Value="0.2" />
+            <PI Name="Deadband" Value="0" />
+            <PI Name="EventEnable" Value="0" />
+            <PI Name="FaultMessage" Value="" />
+            <PI Name="ForeignAddress" Value="&lt;analog-value,      88&gt;" />
+            <PI Name="HighLimit" Value="0" />
+            <PI Name="LimitEnable" Value="0" />
+            <PI Name="LogInterval" Value="900" />
+            <PI Name="LogSize" Value="96" />
+            <PI Name="LogType" Value="1" />
+            <PI Name="LowLimit" Value="0" />
+            <PI Name="NotificationClass" RefNull="1" />
+            <PI Name="NotifyType" Value="0" />
+            <PI Name="Priority1" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority10" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority11" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority12" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority13" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority14" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority15" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority16" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority2" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority3" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority4" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority5" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority6" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority7" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority8" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority9" RefNull="1" Unit="0x10001" />
+            <PI Name="RelinquishDefault" Unit="0x10001" Value="0" />
+            <PI Name="ResetMessage" Value="" />
+            <PI Name="SetPoint" Value="1" />
+            <PI Name="TimeDelay" Value="0" />
+            <PI Name="Value" RefNull="1" RetainLevel="ColdStart" Value="72" />
+        </OI>
+        <OI DESCR="Room Temp Base Setpoint Extended Trend Log" NAME="RmBaseSpt_Etl" TYPE="trend.ETLog">
+            <PI Name="ForceReadTimeout" Value="14400000" />
+            <PI Name="LastTransferredTimestamp" RefNull="1" Value="Tx051856b6ff6c0021" />
+            <PI Name="LogArray" RefNull="1" Unit="0x10001" />
+            <PI Name="LogSize" Value="5760" />
+            <PI Name="MonitoredLog">
+                <Reference DeltaFilter="0" Object="../RmBaseSpt" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="SmartLogEnabled" Value="0" />
+            <PI Name="Threshold" Value="0" />
+        </OI>
+        <OI DESCR="Room Cooling Mode" NAME="RmClgMode" TYPE="bacnet.b3.point.digital.Value">
+            <PI Name="ActiveText" Value="On" />
+            <PI Name="AlarmMessage" Value="" />
+            <PI Name="AlarmValue" Value="0" />
+            <PI Name="BACnetName" Value="RmClgMode" />
+            <PI Name="ChangeOfStateCount" RefNull="1" />
+            <PI Name="ChangeOfStateTime" RefNull="1" />
+            <PI Name="ElapsedActiveTime" RefNull="1" />
+            <PI Name="EventEnable" Value="0" />
+            <PI Name="FaultMessage" Value="" />
+            <PI Name="ForeignAddress" Value="&lt;binary-value,      83&gt;" />
+            <PI Name="InactiveText" Value="Off" />
+            <PI Name="MinimumOffTime" Value="0" />
+            <PI Name="MinimumOnTime" Value="0" />
+            <PI Name="NotificationClass" RefNull="1" />
+            <PI Name="NotifyType" Value="0" />
+            <PI Name="Priority1" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+            <PI Name="Priority10" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+            <PI Name="Priority11" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+            <PI Name="Priority12" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+            <PI Name="Priority13" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+            <PI Name="Priority14" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+            <PI Name="Priority15" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+            <PI Name="Priority16" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+            <PI Name="Priority2" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+            <PI Name="Priority3" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+            <PI Name="Priority4" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+            <PI Name="Priority5" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+            <PI Name="Priority6" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+            <PI Name="Priority7" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+            <PI Name="Priority8" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+            <PI Name="Priority9" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+            <PI Name="RelinquishDefault" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" Value="0" />
+            <PI Name="ResetMessage" Value="" />
+            <PI Name="TimeDelay" Value="0" />
+            <PI Name="TimeOfActiveTimeReset" RefNull="1" />
+            <PI Name="TimeOfStateCountReset" RefNull="1" />
+            <PI Name="Value" RefNull="1" Type="public.aaaic256pscofocffvw36g7ybz_aaaic256pscofocffvwyaoqpds" />
+        </OI>
+        <OI DESCR="Room Cooling Setpoint Extended Trend Log" NAME="RmClgSpt_Etl" TYPE="trend.ETLog">
+            <PI Name="ForceReadTimeout" Value="14400000" />
+            <PI Name="LastTransferredTimestamp" RefNull="1" Value="Tx051856b6ff6c0021" />
+            <PI Name="LogArray" RefNull="1" Unit="0x10001" />
+            <PI Name="LogSize" Value="5760" />
+            <PI Name="MonitoredLog">
+                <Reference DeltaFilter="0" Object="../RmClgSpt" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="SmartLogEnabled" Value="0" />
+            <PI Name="Threshold" Value="0" />
+        </OI>
+        <OI DESCR="Room Temp High Alarm" NAME="RmTmpHiAl" TYPE="bacnet.b3.EventEnrollmentProxy">
+            <PI Name="AlarmMessage" Value="The Room Temp is Above Setpoint!!!" />
+            <PI Name="BACnetName" Value="RmTmpHiAl" />
+            <PI Name="EventEnable" Value="5" />
+            <PI Name="EventType" Value="1" />
+            <PI Name="ForeignAddress" Value="&lt;event-enrollment,      39&gt;" />
+            <PI Name="NotificationClass">
+                <Reference DeltaFilter="0" Object="../BACnet Notification_EN" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="ObjectPropertyReference">
+                <Reference DeltaFilter="0" Object="../RmTmpHiAlm" Property="Value" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="ResetMessage" Value="The Room Temp has Returned to Normal." />
+            <OI NAME="Change of state event parameters" TYPE="bacnet.pt.eventparameters.COS" hidden="1">
+                <OI NAME="bacnet.pt.listofstates.ListOfBinaryPV" TYPE="bacnet.pt.listofstates.ListOfBinaryPV" hidden="1">
+                    <PI Name="Values" Value="2" />
+                </OI>
+            </OI>
+        </OI>
+        <OI DESCR="Room Temp Low Alarm" NAME="RmTmpLoAl" TYPE="bacnet.b3.EventEnrollmentProxy">
+            <PI Name="AlarmMessage" Value="The Room Temp is Below Setpoint!!!" />
+            <PI Name="BACnetName" Value="RmTmpLoAl" />
+            <PI Name="EventEnable" Value="5" />
+            <PI Name="EventType" Value="1" />
+            <PI Name="ForeignAddress" Value="&lt;event-enrollment,      40&gt;" />
+            <PI Name="NotificationClass">
+                <Reference DeltaFilter="0" Object="../BACnet Notification_EN" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="ObjectPropertyReference">
+                <Reference DeltaFilter="0" Object="../RmTmpLoAlm" Property="Value" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="ResetMessage" Value="The Room Temp has Returned to Normal." />
+            <OI NAME="Change of state event parameters" TYPE="bacnet.pt.eventparameters.COS" hidden="1">
+                <OI NAME="bacnet.pt.listofstates.ListOfBinaryPV" TYPE="bacnet.pt.listofstates.ListOfBinaryPV" hidden="1">
+                    <PI Name="Values" Value="2" />
+                </OI>
+            </OI>
+        </OI>
+        <OI NAME="RmTmpSptAdj" TYPE="bacnet.b3.point.analog.Input">
+            <PI Name="AlarmMessage" Value="" />
+            <PI Name="BACnetName" Value="RmTmpSptAdj_AI" />
+            <PI Name="COVIncrement" Value="0.1" />
+            <PI Name="Channel" Value="3" />
+            <PI Name="Deadband" Value="0" />
+            <PI Name="DeviceType" Value="" />
+            <PI Name="ElecScaleTop" Value="2.5" />
+            <PI Name="EngScaleBot" Value="-2" />
+            <PI Name="EngScaleTop" Value="2" />
+            <PI Name="EventEnable" Value="0" />
+            <PI Name="FaultMessage" Value="" />
+            <PI Name="ForeignAddress" Value="&lt;analog-input,       6&gt;" />
+            <PI Name="HighLimit" Value="0" />
+            <PI Name="LimitEnable" Value="0" />
+            <PI Name="LowLimit" Value="0" />
+            <PI Name="MaxPresValue" Value="0" />
+            <PI Name="MinPresValue" Value="0" />
+            <PI Name="NotificationClass" RefNull="1" />
+            <PI Name="NotifyType" Value="0" />
+            <PI Name="ResetMessage" Value="" />
+            <PI Name="Resolution" Value="0" />
+            <PI Name="TimeDelay" Value="0" />
+            <PI Name="UpdateInterval" Value="0" />
+        </OI>
+        <OI DESCR="Room Temperature Extended Trend Log" NAME="RmTmp_Etl" TYPE="trend.ETLog">
+            <PI Name="ForceReadTimeout" Value="14400000" />
+            <PI Name="LastTransferredTimestamp" RefNull="1" Value="Tx051856b6ff6c0021" />
+            <PI Name="LogArray" RefNull="1" Unit="0x10001" />
+            <PI Name="LogSize" Value="5760" />
+            <PI Name="MonitoredLog">
+                <Reference DeltaFilter="0" Object="../RmTmp" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="SmartLogEnabled" Value="0" />
+            <PI Name="Threshold" Value="0" />
+        </OI>
+        <OI DESCR="SBO PID Function" NAME="SBOPID_Fn" TYPE="private.Cffd7d9284a1e11b291d800500601e911">
+            <PI Name="BACnetName" Value="SBOPID_Fn" />
+            <PI Name="ForeignAddress" Value="&lt;proprietary,       2&gt;" />
+        </OI>
+        <OI DESCR="SBO Ratio Function" NAME="SBORatio_Fn" TYPE="private.Cff4d198c4a1e11b2bdca00500601e911">
+            <PI Name="BACnetName" Value="SBORatio_Fn" />
+            <PI Name="ForeignAddress" Value="&lt;proprietary,       5&gt;" />
+        </OI>
+        <OI DESCR="Supply Flow Demand Signal" NAME="SaDprFlDmd" TYPE="bacnet.b3.point.analog.Value">
+            <PI Name="AlarmMessage" Value="" />
+            <PI Name="BACnetName" Value="SaDprFlDmd" />
+            <PI Name="COVIncrement" Value="0.1" />
+            <PI Name="Deadband" Value="0" />
+            <PI Name="EventEnable" Value="0" />
+            <PI Name="FaultMessage" Value="" />
+            <PI Name="ForeignAddress" Value="&lt;analog-value,      97&gt;" />
+            <PI Name="HighLimit" Value="0" />
+            <PI Name="LimitEnable" Value="0" />
+            <PI Name="LowLimit" Value="0" />
+            <PI Name="NotificationClass" RefNull="1" />
+            <PI Name="NotifyType" Value="0" />
+            <PI Name="Priority1" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority10" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority11" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority12" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority13" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority14" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority15" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority16" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority2" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority3" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority4" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority5" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority6" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority7" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority8" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority9" RefNull="1" Unit="0x10001" />
+            <PI Name="RelinquishDefault" Unit="0x10001" Value="0" />
+            <PI Name="ResetMessage" Value="" />
+            <PI Name="TimeDelay" Value="0" />
+        </OI>
+        <OI DESCR="Maximum Flow Setpoint" NAME="SaDprMaxFlSpt" TYPE="bacnet.b3.point.analog.Value">
+            <PI Name="AlarmMessage" Value="" />
+            <PI Name="BACnetName" Value="SaDprMaxFlSpt" />
+            <PI Name="COVIncrement" Value="10" />
+            <PI Name="Deadband" Value="0" />
+            <PI Name="EventEnable" Value="0" />
+            <PI Name="FaultMessage" Value="" />
+            <PI Name="ForeignAddress" Value="&lt;analog-value,      56&gt;" />
+            <PI Name="HighLimit" Value="0" />
+            <PI Name="LimitEnable" Value="0" />
+            <PI Name="LogInterval" Value="10" />
+            <PI Name="LogSize" Value="0" />
+            <PI Name="LogType" Value="0" />
+            <PI Name="LowLimit" Value="0" />
+            <PI Name="NotificationClass" RefNull="1" />
+            <PI Name="NotifyType" Value="0" />
+            <PI Name="Priority1" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority10" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority11" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority12" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority13" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority14" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority15" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority16" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority2" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority3" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority4" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority5" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority6" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority7" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority8" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority9" RefNull="1" Unit="0x10001" />
+            <PI Name="RelinquishDefault" Unit="0x10001" Value="0" />
+            <PI Name="ResetMessage" Value="" />
+            <PI Name="SetPoint" Value="1" />
+            <PI Name="TimeDelay" Value="0" />
+            <PI Name="Value" RefNull="1" RetainLevel="ColdStart" Value="175" />
+        </OI>
+        <OI DESCR="Minimum Flow Setpoint" NAME="SaDprMinFlSpt" TYPE="bacnet.b3.point.analog.Value">
+            <PI Name="AlarmMessage" Value="" />
+            <PI Name="BACnetName" Value="SaDprMinFlSpt" />
+            <PI Name="COVIncrement" Value="10" />
+            <PI Name="Deadband" Value="0" />
+            <PI Name="EventEnable" Value="0" />
+            <PI Name="FaultMessage" Value="" />
+            <PI Name="ForeignAddress" Value="&lt;analog-value,      55&gt;" />
+            <PI Name="HighLimit" Value="0" />
+            <PI Name="LimitEnable" Value="0" />
+            <PI Name="LogInterval" Value="10" />
+            <PI Name="LogSize" Value="0" />
+            <PI Name="LogType" Value="0" />
+            <PI Name="LowLimit" Value="0" />
+            <PI Name="NotificationClass" RefNull="1" />
+            <PI Name="NotifyType" Value="0" />
+            <PI Name="Priority1" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority10" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority11" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority12" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority13" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority14" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority15" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority16" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority2" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority3" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority4" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority5" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority6" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority7" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority8" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority9" RefNull="1" Unit="0x10001" />
+            <PI Name="RelinquishDefault" Unit="0x10001" Value="0" />
+            <PI Name="ResetMessage" Value="" />
+            <PI Name="SetPoint" Value="1" />
+            <PI Name="TimeDelay" Value="0" />
+            <PI Name="Value" RefNull="1" RetainLevel="ColdStart" Value="52" />
+        </OI>
+        <OI DESCR="Supply Temp Demand Signal" NAME="SaTmpDmd" TYPE="bacnet.b3.point.analog.Value">
+            <PI Name="AlarmMessage" Value="" />
+            <PI Name="BACnetName" Value="SaTmpDmd" />
+            <PI Name="COVIncrement" Value="0.1" />
+            <PI Name="Deadband" Value="0" />
+            <PI Name="EventEnable" Value="0" />
+            <PI Name="FaultMessage" Value="" />
+            <PI Name="ForeignAddress" Value="&lt;analog-value,      93&gt;" />
+            <PI Name="HighLimit" Value="0" />
+            <PI Name="LimitEnable" Value="0" />
+            <PI Name="LowLimit" Value="0" />
+            <PI Name="NotificationClass" RefNull="1" />
+            <PI Name="NotifyType" Value="0" />
+            <PI Name="Priority1" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority10" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority11" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority12" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority13" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority14" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority15" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority16" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority2" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority3" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority4" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority5" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority6" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority7" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority8" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority9" RefNull="1" Unit="0x10001" />
+            <PI Name="RelinquishDefault" Unit="0x10001" Value="0" />
+            <PI Name="ResetMessage" Value="" />
+            <PI Name="TimeDelay" Value="0" />
+        </OI>
+        <OI DESCR="Room Operational Calculations" NAME="RoomControl_Pr" TYPE="private.Cfedb676a4a1e11b2900c00500601e911">
+            <PI Name="BACnetName" Value="RoomControl_Pr" />
+            <PI Name="ClgDmd">
+                <Reference DeltaFilter="0" Object="../ClgDmd" Property="Value" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="DeadBand">
+                <Reference DeltaFilter="0" Object="../DeadBand" Property="Value" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="ForeignAddress" Value="&lt;proprietary,      21&gt;" />
+            <PI Name="RmClgMode">
+                <Reference DeltaFilter="0" Object="../RmClgMode" Property="Value" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="RmClgSpt">
+                <Reference DeltaFilter="0" Object="../RmClgSpt" Property="Value" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="RmTmp">
+                <Reference DeltaFilter="0" Object="../RmTmp" Property="Value" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="SBOPID_Fn">
+                <Reference DeltaFilter="0" Object="../SBOPID_Fn" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="SBORatio_Fn">
+                <Reference DeltaFilter="0" Object="../SBORatio_Fn" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="SaDprFlDmd">
+                <Reference DeltaFilter="0" Object="../SaDprFlDmd" Property="Value" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="SaDprFlSpt">
+                <Reference DeltaFilter="0" Object="../SaDprFlSpt" Property="Value" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="SaDprMaxFlSpt">
+                <Reference DeltaFilter="0" Object="../SaDprMaxFlSpt" Property="Value" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="SaDprMinFlSpt">
+                <Reference DeltaFilter="0" Object="../SaDprMinFlSpt" Property="Value" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="SaDprPosIntlk">
+                <Reference DeltaFilter="0" Object="../SaDprPosIntlk" Property="Value" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="SaTmpDmd">
+                <Reference DeltaFilter="0" Object="../SaTmpDmd" Property="Value" Retransmit="0" TransferRate="10" />
+            </PI>
+        </OI>
+        <OI DESCR="SBO Pulse Function" NAME="SBOPulse_Fn" TYPE="private.Cff39fe6a4a1e11b2a18500500601e911">
+            <PI Name="BACnetName" Value="SBOPulse_Fn" />
+            <PI Name="ForeignAddress" Value="&lt;proprietary,       3&gt;" />
+        </OI>
+        <OI DESCR="Supply Air Flow Alarm" NAME="SaDprFlAl" TYPE="bacnet.b3.EventEnrollmentProxy">
+            <PI Name="AlarmMessage" Value="The Supply Air Flow is Out of Range!!!" />
+            <PI Name="BACnetName" Value="SaDprFlAl" />
+            <PI Name="EventEnable" Value="5" />
+            <PI Name="EventType" Value="1" />
+            <PI Name="ForeignAddress" Value="&lt;event-enrollment,      41&gt;" />
+            <PI Name="NotificationClass">
+                <Reference DeltaFilter="0" Object="../BACnet Notification_EN" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="ObjectPropertyReference">
+                <Reference DeltaFilter="0" Object="../SaDprFlAlm" Property="Value" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="ResetMessage" Value="The Supply Air Flow has Returned to Normal." />
+            <OI NAME="Change of state event parameters" TYPE="bacnet.pt.eventparameters.COS" hidden="1">
+                <OI NAME="bacnet.pt.listofstates.ListOfBinaryPV" TYPE="bacnet.pt.listofstates.ListOfBinaryPV" hidden="1">
+                    <PI Name="Values" Value="2" />
+                </OI>
+            </OI>
+        </OI>
+        <OI DESCR="Supply Flow Setpoint Extended Trend Log" NAME="SaDprFlSpt_Etl" TYPE="trend.ETLog">
+            <PI Name="ForceReadTimeout" Value="14400000" />
+            <PI Name="LastTransferredTimestamp" RefNull="1" Value="Tx051856b6ff6c0021" />
+            <PI Name="LogArray" RefNull="1" Unit="0x10001" />
+            <PI Name="LogSize" Value="5760" />
+            <PI Name="MonitoredLog">
+                <Reference DeltaFilter="0" Object="../SaDprFlSpt" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="SmartLogEnabled" Value="0" />
+            <PI Name="Threshold" Value="0" />
+        </OI>
+        <OI DESCR="Supply Flow Extended Trend Log" NAME="SaDprFl_Etl" TYPE="trend.ETLog">
+            <PI Name="ForceReadTimeout" Value="14400000" />
+            <PI Name="LastTransferredTimestamp" RefNull="1" Value="Tx051856b6ff6c0021" />
+            <PI Name="LogArray" RefNull="1" Unit="0x10001" />
+            <PI Name="LogSize" Value="5760" />
+            <PI Name="MonitoredLog">
+                <Reference DeltaFilter="0" Object="../SaDprFl" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="SmartLogEnabled" Value="0" />
+            <PI Name="Threshold" Value="0" />
+        </OI>
+        <OI DESCR="Supply Air Damper Position" NAME="SaDprPos" TYPE="bacnet.b3.point.multistate.Output">
+            <PI Name="AlarmMessage" Value="" />
+            <PI Name="BACnetName" Value="SaDprPos" />
+            <PI Name="Channel" Value="1" />
+            <PI Name="DeviceType" Value="" />
+            <PI Name="EventEnable" Value="0" />
+            <PI Name="FaultMessage" Value="" />
+            <PI Name="ForeignAddress" Value="&lt;multi-state-output,      29&gt;" />
+            <PI Name="NotificationClass" RefNull="1" />
+            <PI Name="NotifyType" Value="0" />
+            <PI Name="ResetMessage" Value="" />
+            <PI Name="TimeDelay" Value="0" />
+        </OI>
+        <OI DESCR="Supply Damper Calculation" NAME="SaDprPosPct" TYPE="bacnet.b3.point.analog.Value">
+            <PI Name="AlarmMessage" Value="" />
+            <PI Name="BACnetName" Value="SaDprPosPct" />
+            <PI Name="COVIncrement" Value="0.1" />
+            <PI Name="Deadband" Value="0" />
+            <PI Name="EventEnable" Value="0" />
+            <PI Name="FaultMessage" Value="" />
+            <PI Name="ForeignAddress" Value="&lt;analog-value,      87&gt;" />
+            <PI Name="HighLimit" Value="0" />
+            <PI Name="LimitEnable" Value="0" />
+            <PI Name="LowLimit" Value="0" />
+            <PI Name="NotificationClass" RefNull="1" />
+            <PI Name="NotifyType" Value="0" />
+            <PI Name="Priority1" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority10" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority11" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority12" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority13" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority14" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority15" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority16" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority2" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority3" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority4" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority5" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority6" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority7" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority8" RefNull="1" Unit="0x10001" />
+            <PI Name="Priority9" RefNull="1" Unit="0x10001" />
+            <PI Name="RelinquishDefault" Unit="0x10001" Value="0" />
+            <PI Name="ResetMessage" Value="" />
+            <PI Name="TimeDelay" Value="0" />
+        </OI>
+        <OI DESCR="Supply Air Damper Control" NAME="SaDprPos_Pr" TYPE="private.Cffa02b4a4a1e11b29d6c00500601e911">
+            <PI Name="BACnetName" Value="SaDprPos_Pr" />
+            <PI Name="ForeignAddress" Value="&lt;proprietary,      18&gt;" />
+            <PI Name="KF">
+                <Reference DeltaFilter="0" Object="../Kf" Property="Value" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="SBOPID_Fn">
+                <Reference DeltaFilter="0" Object="../SBOPID_Fn" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="SBOPulse_Fn">
+                <Reference DeltaFilter="0" Object="../SBOPulse_Fn" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="SaDprFl">
+                <Reference DeltaFilter="0" Object="../SaDprFl" Property="Value" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="SaDprFlSpt">
+                <Reference DeltaFilter="0" Object="../SaDprFlSpt" Property="Value" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="SaDprPos">
+                <Reference DeltaFilter="0" Object="../SaDprPos" Property="Value" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="SaDprPosIntlk">
+                <Reference DeltaFilter="0" Object="../SaDprPosIntlk" Property="Value" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="SaDprPosPct">
+                <Reference DeltaFilter="0" Object="../SaDprPosPct" Property="Value" Retransmit="0" TransferRate="10" />
+            </PI>
+        </OI>
+        <OI DESCR="Setpoint Calculations" NAME="Setpoints_Pr" TYPE="private.Cfe3de7424a1e11b2b94900500601e911">
+            <PI Name="BACnetName" Value="Setpoints_Pr" />
+            <PI Name="ForeignAddress" Value="&lt;proprietary,      19&gt;" />
+            <PI Name="RmBaseSpt">
+                <Reference DeltaFilter="0" Object="../RmBaseSpt" Property="Value" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="RmClgSpt">
+                <Reference DeltaFilter="0" Object="../RmClgSpt" Property="Value" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="RmTmpSptAdj">
+                <Reference DeltaFilter="0" Object="../RmTmpSptAdj" Property="Value" Retransmit="0" TransferRate="10" />
+            </PI>
+        </OI>
+        <OI DESCR="VAV Box Graphic" NAME="VAV_Gr" TYPE="private.Cff59a9d64a1e11b2857700500601e911">
+            <PI Name="Controller Description">
+                <Reference DeltaFilter="0" Object="../.." Property="DESCR" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="Controller Name">
+                <Reference DeltaFilter="0" Object="../.." Property="NAME" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="Controller Note1">
+                <Reference DeltaFilter="0" Object="../.." Property="NOTE1" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="Occp">
+                <Reference DeltaFilter="0" Object="../Occp" Property="Value" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="Occp.Pri">
+                <Reference DeltaFilter="0" Object="../Occp" Property="Priority8" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="RmBaseSpt">
+                <Reference DeltaFilter="0" Object="../RmBaseSpt" Property="Value" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="RmClgSpt">
+                <Reference DeltaFilter="0" Object="../RmClgSpt" Property="Value" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="RmClgSpt.Pri">
+                <Reference DeltaFilter="0" Object="../RmClgSpt" Property="Priority8" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="RmTmp">
+                <Reference DeltaFilter="0" Object="../RmTmp" Property="Value" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="RmTmp.OOS">
+                <Reference DeltaFilter="0" Object="../RmTmp" Property="OutOfService" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="RmTmpAlm">
+                <Reference DeltaFilter="0" Object="../RmTmpAlm" Property="Value" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="RmTmpSptAdj">
+                <Reference DeltaFilter="0" Object="../RmTmpSptAdj" Property="Value" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="RmTmpSptAdj.OOS">
+                <Reference DeltaFilter="0" Object="../RmTmpSptAdj" Property="OutOfService" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="SaDprFl">
+                <Reference DeltaFilter="0" Object="../SaDprFl" Property="Value" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="SaDprFl.Pri">
+                <Reference DeltaFilter="0" Object="../SaDprFl" Property="Priority8" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="SaDprFlAlm">
+                <Reference DeltaFilter="0" Object="../SaDprFlAlm" Property="Value" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="SaDprFlSpt">
+                <Reference DeltaFilter="0" Object="../SaDprFlSpt" Property="Value" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="SaDprFlSpt.Pri">
+                <Reference DeltaFilter="0" Object="../SaDprFlSpt" Property="Priority8" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="SaDprMaxFlSpt">
+                <Reference DeltaFilter="0" Object="../SaDprMaxFlSpt" Property="Value" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="SaDprMaxFlSpt.Pri">
+                <Reference DeltaFilter="0" Object="../SaDprMaxFlSpt" Property="Priority8" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="SaDprMinFlSpt">
+                <Reference DeltaFilter="0" Object="../SaDprMinFlSpt" Property="Value" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="SaDprMinFlSpt.Pri">
+                <Reference DeltaFilter="0" Object="../SaDprMinFlSpt" Property="Priority8" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="SaDprPosPct">
+                <Reference DeltaFilter="0" Object="../SaDprPosPct" Property="Value" Retransmit="0" TransferRate="10" />
+            </PI>
+            <PI Name="SaDprPosPct.Pri">
+                <Reference DeltaFilter="0" Object="../SaDprPosPct" Property="Priority8" Retransmit="0" TransferRate="10" />
+            </PI>
+        </OI>
+    </OI>
+</OI>

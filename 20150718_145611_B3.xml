@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ObjectSet ExportMode="Standard" Version="1.6.1.5000" Note="TypesFirst">
+<MetaInformation>
+<ExportMode Value="Standard" />
+<RuntimeVersion Value="1.6.1.5000" />
+<SourceVersion Value="1.6.1.5000" />
+<ServerFullPath Value="/QCC" />
+</MetaInformation>
+<ExportedObjects>
+<OI DESCR="Rm###_VAV" NAME="Rm###_VAV" TYPE="bacnet.b3.Device">
+<PI Name="APDUSegmentTimeout" Value="2000" />
+<PI Name="BackupFailureTimeout" Value="0" />
+<PI Name="DaylightSavingsStatus" Value="0" />
+<PI Name="MaxInfoFrames" Value="2" />
+<PI Name="MaxMaster" Value="127" />
+<PI Name="MaxSegmentsAccepted" Value="0" />
+<PI Name="ModelName" Value="b3866" />
+<PI Name="ProfileName" Value="" />
+<PI Name="UTCOffset" Value="0" />
+<OI NAME="Application" TYPE="bacnet.b3.B3ApplicationProxy" declared="1">
+    <OI DESCR="" NAME="RmTmp" TYPE="bacnet.b3.point.analog.Input">
+      <PI Name="AlarmMessage" Value="" />
+      <PI Name="BACnetName" Value="RmTmp" />
+      <PI Name="COVIncrement" Value="0.5" />
+      <PI Name="Channel" Value="1" />
+      <PI Name="Deadband" Value="0" />
+      <PI Name="DeviceType" Value="" />
+      <PI Name="ElectricType" Value="3" />
+      <PI Name="EventEnable" Value="0" />
+      <PI Name="FaultMessage" Value="" />
+      <PI Name="ForeignAddress" Value="" />
+      <PI Name="HighLimit" Value="0" />
+      <PI Name="LimitEnable" Value="0" />
+      <PI Name="LogInterval" Value="900" />
+      <PI Name="LogSize" Value="96" />
+      <PI Name="LogType" Value="2" />
+      <PI Name="LowLimit" Value="0" />
+      <PI Name="MaxPresValue" Value="0" />
+      <PI Name="MinPresValue" Value="0" />
+      <PI Name="NotificationClass" RefNull="1" />
+      <PI Name="NotifyType" Value="0" />
+      <PI Name="ProfileName" Value="" />
+      <PI Name="ResetMessage" Value="" />
+      <PI Name="Resolution" Value="0" />
+      <PI Name="Threshold" Value="0.5" />
+      <PI Name="TimeDelay" Value="0" />
+      <PI Name="UpdateInterval" Value="0" />
+      <PI Name="Value" RefNull="1" Unit="0x0" />
+    </OI>
+    <OI DESCR="" NAME="RmTmpSptAdj" TYPE="bacnet.b3.point.analog.Input">
+      <PI Name="AlarmMessage" Value="" />
+      <PI Name="BACnetName" Value="RmTmpSptAdj" />
+      <PI Name="COVIncrement" Value="0.5" />
+      <PI Name="Channel" Value="3" />
+      <PI Name="Deadband" Value="0" />
+      <PI Name="DeviceType" Value="" />
+      <PI Name="ElectricType" Value="0" />
+      <PI Name="EventEnable" Value="0" />
+      <PI Name="FaultMessage" Value="" />
+      <PI Name="ForeignAddress" Value="" />
+      <PI Name="HighLimit" Value="0" />
+      <PI Name="LimitEnable" Value="0" />
+      <PI Name="LogInterval" Value="900" />
+      <PI Name="LogSize" Value="96" />
+      <PI Name="LogType" Value="2" />
+      <PI Name="LowLimit" Value="0" />
+      <PI Name="MaxPresValue" Value="0" />
+      <PI Name="MinPresValue" Value="0" />
+      <PI Name="NOTE1" Value="VALUE OF RANGE NOT KNOWN" />
+      <PI Name="NotificationClass" RefNull="1" />
+      <PI Name="NotifyType" Value="0" />
+      <PI Name="ProfileName" Value="" />
+      <PI Name="ResetMessage" Value="" />
+      <PI Name="Resolution" Value="0" />
+      <PI Name="Threshold" Value="0.5" />
+      <PI Name="TimeDelay" Value="0" />
+      <PI Name="UpdateInterval" Value="0" />
+      <PI Name="Value" RefNull="1" Unit="0x0" />
+    </OI>
+</OI>
+</OI>
+</ExportedObjects>
+</ObjectSet>

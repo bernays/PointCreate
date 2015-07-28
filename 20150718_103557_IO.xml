@@ -1,0 +1,1228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ObjectSet ExportMode="Standard" Version="1.6.1.5000" Note="TypesFirst">
+<MetaInformation>
+<ExportMode Value="Standard" />
+<RuntimeVersion Value="1.6.1.5000" />
+<SourceVersion Value="1.6.1.5000" />
+<ServerFullPath Value="/QCC" />
+</MetaInformation>
+<ExportedObjects>
+<OI DESCR="SLOT3_DOFC8H" NAME="SLOT3_DOFC8H" TYPE="io.DOFC8">
+<OI NAME="Ch1Ena" TYPE="io.point.DigitalOutput">
+  <PI Name="OutputChannelNumber" Value="1"/> 
+</OI>
+<OI NAME="Ch2Ena" TYPE="io.point.DigitalOutput">
+  <PI Name="OutputChannelNumber" Value="2"/> 
+</OI>
+<OI NAME="PchwP1Cmd" TYPE="io.point.DigitalOutput">
+  <PI Name="OutputChannelNumber" Value="3"/> 
+</OI>
+<OI NAME="PchwP2Cmd" TYPE="io.point.DigitalOutput">
+  <PI Name="OutputChannelNumber" Value="4"/> 
+</OI>
+<OI NAME="Ch1CwVlvCmd" TYPE="io.point.DigitalOutput">
+  <PI Name="OutputChannelNumber" Value="5"/> 
+</OI>
+<OI NAME="Ch1ChwRVlvCmd" TYPE="io.point.DigitalOutput">
+  <PI Name="OutputChannelNumber" Value="6"/> 
+</OI>
+<OI NAME="Ch2CwVlvCmd" TYPE="io.point.DigitalOutput">
+  <PI Name="OutputChannelNumber" Value="7"/> 
+</OI>
+<OI NAME="Ch2ChwRVlvCmd" TYPE="io.point.DigitalOutput">
+  <PI Name="OutputChannelNumber" Value="8"/> 
+</OI>
+</OI>
+<OI DESCR="SLOT4_DOFC8H" NAME="SLOT4_DOFC8H" TYPE="io.DOFC8">
+<OI NAME="CwP1Cmd" TYPE="io.point.DigitalOutput">
+  <PI Name="OutputChannelNumber" Value="1"/> 
+</OI>
+<OI NAME="CwP2Cmd" TYPE="io.point.DigitalOutput">
+  <PI Name="OutputChannelNumber" Value="2"/> 
+</OI>
+<OI NAME="CtFanCmd" TYPE="io.point.DigitalOutput">
+  <PI Name="OutputChannelNumber" Value="3"/> 
+</OI>
+<OI NAME="CtyMUVlvCmd" TYPE="io.point.DigitalOutput">
+  <PI Name="OutputChannelNumber" Value="4"/> 
+</OI>
+<OI NAME="CondMUVlvCmd" TYPE="io.point.DigitalOutput">
+  <PI Name="OutputChannelNumber" Value="5"/> 
+</OI>
+<OI NAME="BiDirectVlvCmd" TYPE="io.point.DigitalOutput">
+  <PI Name="OutputChannelNumber" Value="6"/> 
+</OI>
+<OI NAME="FrClgChwRVlvCmd" TYPE="io.point.DigitalOutput">
+  <PI Name="OutputChannelNumber" Value="7"/> 
+</OI>
+</OI>
+<OI DESCR="SLOT5_DOFC8H" NAME="SLOT5_DOFC8H" TYPE="io.DOFC8">
+<OI NAME="SchwP1Cmd" TYPE="io.point.DigitalOutput">
+  <PI Name="OutputChannelNumber" Value="1"/> 
+</OI>
+<OI NAME="SchwP2Cmd" TYPE="io.point.DigitalOutput">
+  <PI Name="OutputChannelNumber" Value="2"/> 
+</OI>
+<OI NAME="SchwP3ACmd" TYPE="io.point.DigitalOutput">
+  <PI Name="OutputChannelNumber" Value="3"/> 
+</OI>
+<OI NAME="SchwP3BCmd" TYPE="io.point.DigitalOutput">
+  <PI Name="OutputChannelNumber" Value="4"/> 
+</OI>
+<OI NAME="Schwp12IsoVlvCmd" TYPE="io.point.DigitalOutput">
+  <PI Name="OutputChannelNumber" Value="5"/> 
+</OI>
+<OI NAME="Schwp3IsoVlvCmd" TYPE="io.point.DigitalOutput">
+  <PI Name="OutputChannelNumber" Value="6"/> 
+</OI>
+<OI NAME="FrClgMedTmpIsoVlvCmd" TYPE="io.point.DigitalOutput">
+  <PI Name="OutputChannelNumber" Value="7"/> 
+</OI>
+</OI>
+<OI DESCR="SLOT6_DOFC8H" NAME="SLOT6_DOFC8H" TYPE="io.DOFC8">
+<OI NAME="SchwP4Cmd" TYPE="io.point.DigitalOutput">
+  <PI Name="OutputChannelNumber" Value="1"/> 
+</OI>
+<OI NAME="SchwP5Cmd" TYPE="io.point.DigitalOutput">
+  <PI Name="OutputChannelNumber" Value="2"/> 
+</OI>
+<OI NAME="SGchwP1ACmd" TYPE="io.point.DigitalOutput">
+  <PI Name="OutputChannelNumber" Value="3"/> 
+</OI>
+<OI NAME="SGchwP1BCmd" TYPE="io.point.DigitalOutput">
+  <PI Name="OutputChannelNumber" Value="4"/> 
+</OI>
+</OI>
+<OI DESCR="SLOT7_AO8H" NAME="SLOT7_AO8H" TYPE="io.AO8">
+<OI NAME="Ch1CwBypVlvPos" TYPE="io.point.VoltageOutput">
+  <PI Name="DefaultOutput" Unit="200001" Value="0" />
+  <PI Name="ElecBottomOfScale" Value="2"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x200001" Value="100" />
+  <PI Name="OutputChannelNumber" Value="1"/> 
+  <PI Name="EngBottomOfScale" Unit="0x200001" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x200001" />
+  <PI Name="Offset" Unit="0x200001" Value="0" />
+  <PI Name="RequestedValue" Value="2"/> 
+  <PI Name="Value" RefNull="1" Unit="0x200001" />
+</OI>
+<OI NAME="Ch2CwBypVlvPos" TYPE="io.point.VoltageOutput">
+  <PI Name="DefaultOutput" Unit="200001" Value="0" />
+  <PI Name="ElecBottomOfScale" Value="2"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x200001" Value="100" />
+  <PI Name="OutputChannelNumber" Value="2"/> 
+  <PI Name="EngBottomOfScale" Unit="0x200001" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x200001" />
+  <PI Name="Offset" Unit="0x200001" Value="0" />
+  <PI Name="RequestedValue" Value="2"/> 
+  <PI Name="Value" RefNull="1" Unit="0x200001" />
+</OI>
+<OI NAME="CwP1Spd" TYPE="io.point.VoltageOutput">
+  <PI Name="DefaultOutput" Unit="200001" Value="0" />
+  <PI Name="ElecBottomOfScale" Value="0"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x200001" Value="100" />
+  <PI Name="OutputChannelNumber" Value="3"/> 
+  <PI Name="EngBottomOfScale" Unit="0x200001" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x200001" />
+  <PI Name="Offset" Unit="0x200001" Value="0" />
+  <PI Name="RequestedValue" Value="0"/> 
+  <PI Name="Value" RefNull="1" Unit="0x200001" />
+</OI>
+<OI NAME="CwP2Spd" TYPE="io.point.VoltageOutput">
+  <PI Name="DefaultOutput" Unit="200001" Value="0" />
+  <PI Name="ElecBottomOfScale" Value="0"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x200001" Value="100" />
+  <PI Name="OutputChannelNumber" Value="4"/> 
+  <PI Name="EngBottomOfScale" Unit="0x200001" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x200001" />
+  <PI Name="Offset" Unit="0x200001" Value="0" />
+  <PI Name="RequestedValue" Value="0"/> 
+  <PI Name="Value" RefNull="1" Unit="0x200001" />
+</OI>
+<OI NAME="CwBypVlvPos" TYPE="io.point.VoltageOutput">
+  <PI Name="DefaultOutput" Unit="200001" Value="0" />
+  <PI Name="ElecBottomOfScale" Value="2"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x200001" Value="100" />
+  <PI Name="OutputChannelNumber" Value="5"/> 
+  <PI Name="EngBottomOfScale" Unit="0x200001" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x200001" />
+  <PI Name="Offset" Unit="0x200001" Value="0" />
+  <PI Name="RequestedValue" Value="2"/> 
+  <PI Name="Value" RefNull="1" Unit="0x200001" />
+</OI>
+<OI NAME="CtFanSpd" TYPE="io.point.VoltageOutput">
+  <PI Name="DefaultOutput" Unit="200001" Value="0" />
+  <PI Name="ElecBottomOfScale" Value="0"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x200001" Value="100" />
+  <PI Name="OutputChannelNumber" Value="6"/> 
+  <PI Name="EngBottomOfScale" Unit="0x200001" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x200001" />
+  <PI Name="Offset" Unit="0x200001" Value="0" />
+  <PI Name="RequestedValue" Value="0"/> 
+  <PI Name="Value" RefNull="1" Unit="0x200001" />
+</OI>
+<OI NAME="CtInltVlvPos" TYPE="io.point.VoltageOutput">
+  <PI Name="DefaultOutput" Unit="200001" Value="0" />
+  <PI Name="ElecBottomOfScale" Value="2"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x200001" Value="100" />
+  <PI Name="OutputChannelNumber" Value="7"/> 
+  <PI Name="EngBottomOfScale" Unit="0x200001" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x200001" />
+  <PI Name="Offset" Unit="0x200001" Value="0" />
+  <PI Name="RequestedValue" Value="2"/> 
+  <PI Name="Value" RefNull="1" Unit="0x200001" />
+</OI>
+<OI NAME="CtBypVlvPos" TYPE="io.point.VoltageOutput">
+  <PI Name="DefaultOutput" Unit="200001" Value="0" />
+  <PI Name="ElecBottomOfScale" Value="2"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x200001" Value="100" />
+  <PI Name="OutputChannelNumber" Value="8"/> 
+  <PI Name="EngBottomOfScale" Unit="0x200001" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x200001" />
+  <PI Name="Offset" Unit="0x200001" Value="0" />
+  <PI Name="RequestedValue" Value="2"/> 
+  <PI Name="Value" RefNull="1" Unit="0x200001" />
+</OI>
+</OI>
+<OI DESCR="SLOT8_AO8H" NAME="SLOT8_AO8H" TYPE="io.AO8">
+<OI NAME="PchwP1Spd" TYPE="io.point.VoltageOutput">
+  <PI Name="DefaultOutput" Unit="200001" Value="0" />
+  <PI Name="ElecBottomOfScale" Value="0"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x200001" Value="100" />
+  <PI Name="OutputChannelNumber" Value="1"/> 
+  <PI Name="EngBottomOfScale" Unit="0x200001" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x200001" />
+  <PI Name="Offset" Unit="0x200001" Value="0" />
+  <PI Name="RequestedValue" Value="0"/> 
+  <PI Name="Value" RefNull="1" Unit="0x200001" />
+</OI>
+<OI NAME="PchwP2Spd" TYPE="io.point.VoltageOutput">
+  <PI Name="DefaultOutput" Unit="200001" Value="0" />
+  <PI Name="ElecBottomOfScale" Value="0"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x200001" Value="100" />
+  <PI Name="OutputChannelNumber" Value="2"/> 
+  <PI Name="EngBottomOfScale" Unit="0x200001" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x200001" />
+  <PI Name="Offset" Unit="0x200001" Value="0" />
+  <PI Name="RequestedValue" Value="0"/> 
+  <PI Name="Value" RefNull="1" Unit="0x200001" />
+</OI>
+<OI NAME="SchwP1Spd" TYPE="io.point.VoltageOutput">
+  <PI Name="DefaultOutput" Unit="200001" Value="0" />
+  <PI Name="ElecBottomOfScale" Value="0"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x200001" Value="100" />
+  <PI Name="OutputChannelNumber" Value="3"/> 
+  <PI Name="EngBottomOfScale" Unit="0x200001" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x200001" />
+  <PI Name="Offset" Unit="0x200001" Value="0" />
+  <PI Name="RequestedValue" Value="0"/> 
+  <PI Name="Value" RefNull="1" Unit="0x200001" />
+</OI>
+<OI NAME="SchwP2Spd" TYPE="io.point.VoltageOutput">
+  <PI Name="DefaultOutput" Unit="200001" Value="0" />
+  <PI Name="ElecBottomOfScale" Value="0"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x200001" Value="100" />
+  <PI Name="OutputChannelNumber" Value="4"/> 
+  <PI Name="EngBottomOfScale" Unit="0x200001" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x200001" />
+  <PI Name="Offset" Unit="0x200001" Value="0" />
+  <PI Name="RequestedValue" Value="0"/> 
+  <PI Name="Value" RefNull="1" Unit="0x200001" />
+</OI>
+<OI NAME="SchwP3ASpd" TYPE="io.point.VoltageOutput">
+  <PI Name="DefaultOutput" Unit="200001" Value="0" />
+  <PI Name="ElecBottomOfScale" Value="0"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x200001" Value="100" />
+  <PI Name="OutputChannelNumber" Value="5"/> 
+  <PI Name="EngBottomOfScale" Unit="0x200001" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x200001" />
+  <PI Name="Offset" Unit="0x200001" Value="0" />
+  <PI Name="RequestedValue" Value="0"/> 
+  <PI Name="Value" RefNull="1" Unit="0x200001" />
+</OI>
+<OI NAME="SchwP3BSpd" TYPE="io.point.VoltageOutput">
+  <PI Name="DefaultOutput" Unit="200001" Value="0" />
+  <PI Name="ElecBottomOfScale" Value="0"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x200001" Value="100" />
+  <PI Name="OutputChannelNumber" Value="6"/> 
+  <PI Name="EngBottomOfScale" Unit="0x200001" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x200001" />
+  <PI Name="Offset" Unit="0x200001" Value="0" />
+  <PI Name="RequestedValue" Value="0"/> 
+  <PI Name="Value" RefNull="1" Unit="0x200001" />
+</OI>
+<OI NAME="SchwP4Spd" TYPE="io.point.VoltageOutput">
+  <PI Name="DefaultOutput" Unit="200001" Value="0" />
+  <PI Name="ElecBottomOfScale" Value="0"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x200001" Value="100" />
+  <PI Name="OutputChannelNumber" Value="7"/> 
+  <PI Name="EngBottomOfScale" Unit="0x200001" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x200001" />
+  <PI Name="Offset" Unit="0x200001" Value="0" />
+  <PI Name="RequestedValue" Value="0"/> 
+  <PI Name="Value" RefNull="1" Unit="0x200001" />
+</OI>
+<OI NAME="SchwP5Spd" TYPE="io.point.VoltageOutput">
+  <PI Name="DefaultOutput" Unit="200001" Value="0" />
+  <PI Name="ElecBottomOfScale" Value="0"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x200001" Value="100" />
+  <PI Name="OutputChannelNumber" Value="8"/> 
+  <PI Name="EngBottomOfScale" Unit="0x200001" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x200001" />
+  <PI Name="Offset" Unit="0x200001" Value="0" />
+  <PI Name="RequestedValue" Value="0"/> 
+  <PI Name="Value" RefNull="1" Unit="0x200001" />
+</OI>
+</OI>
+<OI DESCR="SLOT09_UI16" NAME="SLOT09_UI16" TYPE="io.UI16">
+<OI NAME="TmpLlmtAlm" TYPE="io.point.DigitalInput">
+  <PI Name="InputChannelNumber" Value="1"/> 
+</OI>
+<OI NAME="SaLoStPrLmtSw" TYPE="io.point.DigitalInput">
+  <PI Name="InputChannelNumber" Value="2"/> 
+</OI>
+<OI NAME="SaSmkDet" TYPE="io.point.DigitalInput">
+  <PI Name="InputChannelNumber" Value="3"/> 
+</OI>
+<OI NAME="SaHiStPrLmtSw" TYPE="io.point.DigitalInput">
+  <PI Name="InputChannelNumber" Value="4"/> 
+</OI>
+<OI NAME="EaHiStPrLmtSw" TYPE="io.point.DigitalInput">
+  <PI Name="InputChannelNumber" Value="5"/> 
+</OI>
+<OI NAME="EaSmkDet" TYPE="io.point.DigitalInput">
+  <PI Name="InputChannelNumber" Value="6"/> 
+</OI>
+<OI NAME="LEaFan1DprOpn" TYPE="io.point.DigitalInput">
+  <PI Name="InputChannelNumber" Value="7"/> 
+</OI>
+<OI NAME="LEaFan2DprOpn" TYPE="io.point.DigitalInput">
+  <PI Name="InputChannelNumber" Value="8"/> 
+</OI>
+<OI NAME="LEaFan3DprOpn" TYPE="io.point.DigitalInput">
+  <PI Name="InputChannelNumber" Value="9"/> 
+</OI>
+<OI NAME="LEaFan4DprOpn" TYPE="io.point.DigitalInput">
+  <PI Name="InputChannelNumber" Value="10"/> 
+</OI>
+<OI NAME="HwVlvPosFbk" TYPE="io.point.VoltageInput">
+  <PI Name="ElecBottomOfScale" Value="2"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x200001" Value="100" />
+  <PI Name="InputChannelNumber" Value="11"/> 
+  <PI Name="EngBottomOfScale" Unit="0x200001" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x200001" />
+  <PI Name="Offset" Unit="0x200001" Value="0" />
+  <PI Name="Value" RefNull="1" Unit="0x200001" />
+</OI>
+<OI NAME="ChwVlvPosFbk" TYPE="io.point.VoltageInput">
+  <PI Name="ElecBottomOfScale" Value="2"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x200001" Value="100" />
+  <PI Name="InputChannelNumber" Value="12"/> 
+  <PI Name="EngBottomOfScale" Unit="0x200001" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x200001" />
+  <PI Name="Offset" Unit="0x200001" Value="0" />
+  <PI Name="Value" RefNull="1" Unit="0x200001" />
+</OI>
+<OI NAME="RhtVlvPosFbk" TYPE="io.point.VoltageInput">
+  <PI Name="ElecBottomOfScale" Value="2"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x200001" Value="100" />
+  <PI Name="InputChannelNumber" Value="13"/> 
+  <PI Name="EngBottomOfScale" Unit="0x200001" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x200001" />
+  <PI Name="Offset" Unit="0x200001" Value="0" />
+  <PI Name="Value" RefNull="1" Unit="0x200001" />
+</OI>
+</OI>
+<OI DESCR="SLOT10_AO8H" NAME="SLOT10_AO8H" TYPE="io.AO8">
+<OI NAME="FcuLpMixVlvPos" TYPE="io.point.VoltageOutput">
+  <PI Name="DefaultOutput" Unit="200001" Value="0" />
+  <PI Name="ElecBottomOfScale" Value="2"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x200001" Value="100" />
+  <PI Name="OutputChannelNumber" Value="1"/> 
+  <PI Name="EngBottomOfScale" Unit="0x200001" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x200001" />
+  <PI Name="Offset" Unit="0x200001" Value="0" />
+  <PI Name="RequestedValue" Value="2"/> 
+  <PI Name="Value" RefNull="1" Unit="0x200001" />
+</OI>
+<OI NAME="FiuLpDivVlvPos" TYPE="io.point.VoltageOutput">
+  <PI Name="DefaultOutput" Unit="200001" Value="0" />
+  <PI Name="ElecBottomOfScale" Value="2"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x200001" Value="100" />
+  <PI Name="OutputChannelNumber" Value="2"/> 
+  <PI Name="EngBottomOfScale" Unit="0x200001" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x200001" />
+  <PI Name="Offset" Unit="0x200001" Value="0" />
+  <PI Name="RequestedValue" Value="2"/> 
+  <PI Name="Value" RefNull="1" Unit="0x200001" />
+</OI>
+<OI NAME="FiuLpMixVlvPos" TYPE="io.point.VoltageOutput">
+  <PI Name="DefaultOutput" Unit="200001" Value="0" />
+  <PI Name="ElecBottomOfScale" Value="2"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x200001" Value="100" />
+  <PI Name="OutputChannelNumber" Value="3"/> 
+  <PI Name="EngBottomOfScale" Unit="0x200001" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x200001" />
+  <PI Name="Offset" Unit="0x200001" Value="0" />
+  <PI Name="RequestedValue" Value="2"/> 
+  <PI Name="Value" RefNull="1" Unit="0x200001" />
+</OI>
+<OI NAME="HxChwDivVlvPos" TYPE="io.point.VoltageOutput">
+  <PI Name="DefaultOutput" Unit="200001" Value="0" />
+  <PI Name="ElecBottomOfScale" Value="2"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x200001" Value="100" />
+  <PI Name="OutputChannelNumber" Value="4"/> 
+  <PI Name="EngBottomOfScale" Unit="0x200001" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x200001" />
+  <PI Name="Offset" Unit="0x200001" Value="0" />
+  <PI Name="RequestedValue" Value="2"/> 
+  <PI Name="Value" RefNull="1" Unit="0x200001" />
+</OI>
+<OI NAME="HxGlyDivVlvPos" TYPE="io.point.VoltageOutput">
+  <PI Name="DefaultOutput" Unit="200001" Value="0" />
+  <PI Name="ElecBottomOfScale" Value="2"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x200001" Value="100" />
+  <PI Name="OutputChannelNumber" Value="5"/> 
+  <PI Name="EngBottomOfScale" Unit="0x200001" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x200001" />
+  <PI Name="Offset" Unit="0x200001" Value="0" />
+  <PI Name="RequestedValue" Value="2"/> 
+  <PI Name="Value" RefNull="1" Unit="0x200001" />
+</OI>
+<OI NAME="ERUChwBypVlvPos" TYPE="io.point.VoltageOutput">
+  <PI Name="DefaultOutput" Unit="200001" Value="0" />
+  <PI Name="ElecBottomOfScale" Value="2"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x200001" Value="100" />
+  <PI Name="OutputChannelNumber" Value="6"/> 
+  <PI Name="EngBottomOfScale" Unit="0x200001" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x200001" />
+  <PI Name="Offset" Unit="0x200001" Value="0" />
+  <PI Name="RequestedValue" Value="2"/> 
+  <PI Name="Value" RefNull="1" Unit="0x200001" />
+</OI>
+<OI NAME="IndChwBypVlvPos" TYPE="io.point.VoltageOutput">
+  <PI Name="DefaultOutput" Unit="200001" Value="0" />
+  <PI Name="ElecBottomOfScale" Value="2"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x200001" Value="100" />
+  <PI Name="OutputChannelNumber" Value="7"/> 
+  <PI Name="EngBottomOfScale" Unit="0x200001" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x200001" />
+  <PI Name="Offset" Unit="0x200001" Value="0" />
+  <PI Name="RequestedValue" Value="2"/> 
+  <PI Name="Value" RefNull="1" Unit="0x200001" />
+</OI>
+</OI>
+<OI DESCR="SLOT11_DOFA12" NAME="SLOT11_DOFA12" TYPE="io.DOFA12">
+<OI NAME="RaSmkDprCmd" TYPE="io.point.DigitalOutput">
+  <PI Name="OutputChannelNumber" Value="1"/> 
+</OI>
+<OI NAME="HumEna" TYPE="io.point.DigitalOutput">
+  <PI Name="OutputChannelNumber" Value="2"/> 
+</OI>
+<OI NAME="RaFanCmd" TYPE="io.point.DigitalOutput">
+  <PI Name="OutputChannelNumber" Value="3"/> 
+</OI>
+<OI NAME="HwFP2Cmd" TYPE="io.point.DigitalOutput">
+  <PI Name="OutputChannelNumber" Value="4"/> 
+</OI>
+<OI NAME="HwFP1Cmd" TYPE="io.point.DigitalOutput">
+  <PI Name="OutputChannelNumber" Value="5"/> 
+</OI>
+<OI NAME="SaFan1Cmd" TYPE="io.point.DigitalOutput">
+  <PI Name="OutputChannelNumber" Value="6"/> 
+</OI>
+<OI NAME="SaFan2Cmd" TYPE="io.point.DigitalOutput">
+  <PI Name="OutputChannelNumber" Value="7"/> 
+</OI>
+<OI NAME="SaSmkDprCmd" TYPE="io.point.DigitalOutput">
+  <PI Name="OutputChannelNumber" Value="8"/> 
+</OI>
+<OI NAME="EaSmkDprCmd" TYPE="io.point.DigitalOutput">
+  <PI Name="OutputChannelNumber" Value="9"/> 
+</OI>
+<OI NAME="OaBypDprCmd" TYPE="io.point.DigitalOutput">
+  <PI Name="OutputChannelNumber" Value="10"/> 
+</OI>
+<OI NAME="EaBypDprCmd" TYPE="io.point.DigitalOutput">
+  <PI Name="OutputChannelNumber" Value="11"/> 
+</OI>
+</OI>
+<OI DESCR="SLOT12_UI16" NAME="SLOT12_UI16" TYPE="io.UI16">
+<OI NAME="Ch1Sts" TYPE="io.point.DigitalInput">
+  <PI Name="InputChannelNumber" Value="1"/> 
+</OI>
+<OI NAME="Ch2Sts" TYPE="io.point.DigitalInput">
+  <PI Name="InputChannelNumber" Value="2"/> 
+</OI>
+<OI NAME="PchwP1Sts" TYPE="io.point.DigitalInput">
+  <PI Name="InputChannelNumber" Value="3"/> 
+</OI>
+<OI NAME="PchwP1Alm" TYPE="io.point.DigitalInput">
+  <PI Name="InputChannelNumber" Value="4"/> 
+</OI>
+<OI NAME="PchwP2Sts" TYPE="io.point.DigitalInput">
+  <PI Name="InputChannelNumber" Value="5"/> 
+</OI>
+<OI NAME="PchwP2Alm" TYPE="io.point.DigitalInput">
+  <PI Name="InputChannelNumber" Value="6"/> 
+</OI>
+<OI NAME="CwP1Sts" TYPE="io.point.DigitalInput">
+  <PI Name="InputChannelNumber" Value="7"/> 
+</OI>
+<OI NAME="CwP1Alm" TYPE="io.point.DigitalInput">
+  <PI Name="InputChannelNumber" Value="8"/> 
+</OI>
+<OI NAME="CwP2Sts" TYPE="io.point.DigitalInput">
+  <PI Name="InputChannelNumber" Value="9"/> 
+</OI>
+<OI NAME="CwP2Alm" TYPE="io.point.DigitalInput">
+  <PI Name="InputChannelNumber" Value="10"/> 
+</OI>
+<OI NAME="CtFanSts" TYPE="io.point.DigitalInput">
+  <PI Name="InputChannelNumber" Value="11"/> 
+</OI>
+<OI NAME="CtFanAlm" TYPE="io.point.DigitalInput">
+  <PI Name="InputChannelNumber" Value="12"/> 
+</OI>
+<OI NAME="CtFanVib" TYPE="io.point.DigitalInput">
+  <PI Name="InputChannelNumber" Value="13"/> 
+</OI>
+<OI NAME="HeatTraceAlm" TYPE="io.point.DigitalInput">
+  <PI Name="InputChannelNumber" Value="14"/> 
+</OI>
+</OI>
+<OI DESCR="SLOT13_UI16" NAME="SLOT13_UI16" TYPE="io.UI16">
+<OI NAME="Ch1ChwRVlvOpn" TYPE="io.point.DigitalInput">
+  <PI Name="InputChannelNumber" Value="1"/> 
+</OI>
+<OI NAME="Ch1ChwRVlvCls" TYPE="io.point.DigitalInput">
+  <PI Name="InputChannelNumber" Value="2"/> 
+</OI>
+<OI NAME="Ch1CwVlvOpn" TYPE="io.point.DigitalInput">
+  <PI Name="InputChannelNumber" Value="3"/> 
+</OI>
+<OI NAME="Ch1CwVlvCls" TYPE="io.point.DigitalInput">
+  <PI Name="InputChannelNumber" Value="4"/> 
+</OI>
+<OI NAME="Ch2ChwRVlvOpn" TYPE="io.point.DigitalInput">
+  <PI Name="InputChannelNumber" Value="5"/> 
+</OI>
+<OI NAME="Ch2ChwRVlvCls" TYPE="io.point.DigitalInput">
+  <PI Name="InputChannelNumber" Value="6"/> 
+</OI>
+<OI NAME="Ch2CwVlvOpn" TYPE="io.point.DigitalInput">
+  <PI Name="InputChannelNumber" Value="7"/> 
+</OI>
+<OI NAME="Ch2CwVlvCls" TYPE="io.point.DigitalInput">
+  <PI Name="InputChannelNumber" Value="8"/> 
+</OI>
+<OI NAME="CtyMUVlvOpn" TYPE="io.point.DigitalInput">
+  <PI Name="InputChannelNumber" Value="9"/> 
+</OI>
+<OI NAME="CtyMUVlvCls" TYPE="io.point.DigitalInput">
+  <PI Name="InputChannelNumber" Value="10"/> 
+</OI>
+<OI NAME="CondMUVlvOpn" TYPE="io.point.DigitalInput">
+  <PI Name="InputChannelNumber" Value="11"/> 
+</OI>
+<OI NAME="CondMUVlvCls" TYPE="io.point.DigitalInput">
+  <PI Name="InputChannelNumber" Value="12"/> 
+</OI>
+<OI NAME="BiDirectVlvOpn" TYPE="io.point.DigitalInput">
+  <PI Name="InputChannelNumber" Value="13"/> 
+</OI>
+<OI NAME="BiDirectVlvCls" TYPE="io.point.DigitalInput">
+  <PI Name="InputChannelNumber" Value="14"/> 
+</OI>
+</OI>
+<OI DESCR="SLOT14_UI16" NAME="SLOT14_UI16" TYPE="io.UI16">
+<OI NAME="SchwP1Sts" TYPE="io.point.DigitalInput">
+  <PI Name="InputChannelNumber" Value="1"/> 
+</OI>
+<OI NAME="SchwP1Alm" TYPE="io.point.DigitalInput">
+  <PI Name="InputChannelNumber" Value="2"/> 
+</OI>
+<OI NAME="SchwP2Sts" TYPE="io.point.DigitalInput">
+  <PI Name="InputChannelNumber" Value="3"/> 
+</OI>
+<OI NAME="SchwP2Alm" TYPE="io.point.DigitalInput">
+  <PI Name="InputChannelNumber" Value="4"/> 
+</OI>
+<OI NAME="SchwP3ASts" TYPE="io.point.DigitalInput">
+  <PI Name="InputChannelNumber" Value="5"/> 
+</OI>
+<OI NAME="SchwP3AAlm" TYPE="io.point.DigitalInput">
+  <PI Name="InputChannelNumber" Value="6"/> 
+</OI>
+<OI NAME="ShwP3BSts" TYPE="io.point.DigitalInput">
+  <PI Name="InputChannelNumber" Value="7"/> 
+</OI>
+<OI NAME="SchwP3BAlm" TYPE="io.point.DigitalInput">
+  <PI Name="InputChannelNumber" Value="8"/> 
+</OI>
+<OI NAME="Schwp3IsoVlvOpn" TYPE="io.point.DigitalInput">
+  <PI Name="InputChannelNumber" Value="9"/> 
+</OI>
+<OI NAME="Schwp3IsoVlvCls" TYPE="io.point.DigitalInput">
+  <PI Name="InputChannelNumber" Value="10"/> 
+</OI>
+<OI NAME="FrClgChwRVlvOpn" TYPE="io.point.DigitalInput">
+  <PI Name="InputChannelNumber" Value="11"/> 
+</OI>
+<OI NAME="FrClgChwRVlvCls" TYPE="io.point.DigitalInput">
+  <PI Name="InputChannelNumber" Value="12"/> 
+</OI>
+<OI NAME="Schwp12IsoVlvOpn" TYPE="io.point.DigitalInput">
+  <PI Name="InputChannelNumber" Value="13"/> 
+</OI>
+<OI NAME="Schwp12IsoVlvCls" TYPE="io.point.DigitalInput">
+  <PI Name="InputChannelNumber" Value="14"/> 
+</OI>
+<OI NAME="FrClgMedTmpIsoVlvOpn" TYPE="io.point.DigitalInput">
+  <PI Name="InputChannelNumber" Value="15"/> 
+</OI>
+<OI NAME="FrClgMedTmpIsoVlvCls" TYPE="io.point.DigitalInput">
+  <PI Name="InputChannelNumber" Value="16"/> 
+</OI>
+</OI>
+<OI DESCR="SLOT15_UI16" NAME="SLOT15_UI16" TYPE="io.UI16">
+<OI NAME="SGchwP1ASts" TYPE="io.point.DigitalInput">
+  <PI Name="InputChannelNumber" Value="1"/> 
+</OI>
+<OI NAME="SGchwP1BSts" TYPE="io.point.DigitalInput">
+  <PI Name="InputChannelNumber" Value="2"/> 
+</OI>
+<OI NAME="SchwP4Sts" TYPE="io.point.DigitalInput">
+  <PI Name="InputChannelNumber" Value="3"/> 
+</OI>
+<OI NAME="SchwP4Alm" TYPE="io.point.DigitalInput">
+  <PI Name="InputChannelNumber" Value="4"/> 
+</OI>
+<OI NAME="SchwP5Sts" TYPE="io.point.DigitalInput">
+  <PI Name="InputChannelNumber" Value="5"/> 
+</OI>
+<OI NAME="SchwP5Alm" TYPE="io.point.DigitalInput">
+  <PI Name="InputChannelNumber" Value="6"/> 
+</OI>
+</OI>
+<OI DESCR="SLOT16_UI16" NAME="SLOT16_UI16" TYPE="io.UI16">
+<OI NAME="CtBsnLvl" TYPE="io.point.VoltageInput">
+  <PI Name="ElecBottomOfScale" Value="2"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x190003" Value="2" />
+  <PI Name="InputChannelNumber" Value="1"/> 
+  <PI Name="EngBottomOfScale" Unit="0x190003" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x190003" />
+  <PI Name="Offset" Unit="0x190003" Value="0" />
+  <PI Name="Value" RefNull="1" Unit="0x190003" />
+</OI>
+<OI NAME="CtFanFbk" TYPE="io.point.VoltageInput">
+  <PI Name="ElecBottomOfScale" Value="0"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x200001" Value="100" />
+  <PI Name="InputChannelNumber" Value="2"/> 
+  <PI Name="EngBottomOfScale" Unit="0x200001" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x200001" />
+  <PI Name="Offset" Unit="0x200001" Value="0" />
+  <PI Name="Value" RefNull="1" Unit="0x200001" />
+</OI>
+<OI NAME="CtInltVlvPosFbk" TYPE="io.point.VoltageInput">
+  <PI Name="ElecBottomOfScale" Value="2"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x200001" Value="100" />
+  <PI Name="InputChannelNumber" Value="3"/> 
+  <PI Name="EngBottomOfScale" Unit="0x200001" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x200001" />
+  <PI Name="Offset" Unit="0x200001" Value="0" />
+  <PI Name="Value" RefNull="1" Unit="0x200001" />
+</OI>
+<OI NAME="CtBypVlvPosFbk" TYPE="io.point.VoltageInput">
+  <PI Name="ElecBottomOfScale" Value="2"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x200001" Value="100" />
+  <PI Name="InputChannelNumber" Value="4"/> 
+  <PI Name="EngBottomOfScale" Unit="0x200001" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x200001" />
+  <PI Name="Offset" Unit="0x200001" Value="0" />
+  <PI Name="Value" RefNull="1" Unit="0x200001" />
+</OI>
+<OI NAME="CwStrnInPr" TYPE="io.point.VoltageInput">
+  <PI Name="ElecBottomOfScale" Value="0"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x230003" Value="50" />
+  <PI Name="InputChannelNumber" Value="5"/> 
+  <PI Name="EngBottomOfScale" Unit="0x230003" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x230003" />
+  <PI Name="Offset" Unit="0x230003" Value="0" />
+  <PI Name="Value" RefNull="1" Unit="0x230003" />
+</OI>
+<OI NAME="CwStrnOutPr" TYPE="io.point.VoltageInput">
+  <PI Name="ElecBottomOfScale" Value="0"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x230003" Value="50" />
+  <PI Name="InputChannelNumber" Value="6"/> 
+  <PI Name="EngBottomOfScale" Unit="0x230003" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x230003" />
+  <PI Name="Offset" Unit="0x230003" Value="0" />
+  <PI Name="Value" RefNull="1" Unit="0x230003" />
+</OI>
+<OI NAME="CwBypVlvPosFbk" TYPE="io.point.VoltageInput">
+  <PI Name="ElecBottomOfScale" Value="2"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x200001" Value="100" />
+  <PI Name="InputChannelNumber" Value="7"/> 
+  <PI Name="EngBottomOfScale" Unit="0x200001" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x200001" />
+  <PI Name="Offset" Unit="0x200001" Value="0" />
+  <PI Name="Value" RefNull="1" Unit="0x200001" />
+</OI>
+<OI NAME="CwP1Fbk" TYPE="io.point.VoltageInput">
+  <PI Name="ElecBottomOfScale" Value="0"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x200001" Value="100" />
+  <PI Name="InputChannelNumber" Value="8"/> 
+  <PI Name="EngBottomOfScale" Unit="0x200001" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x200001" />
+  <PI Name="Offset" Unit="0x200001" Value="0" />
+  <PI Name="Value" RefNull="1" Unit="0x200001" />
+</OI>
+<OI NAME="CwP2Fbk" TYPE="io.point.VoltageInput">
+  <PI Name="ElecBottomOfScale" Value="0"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x200001" Value="100" />
+  <PI Name="InputChannelNumber" Value="9"/> 
+  <PI Name="EngBottomOfScale" Unit="0x200001" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x200001" />
+  <PI Name="Offset" Unit="0x200001" Value="0" />
+  <PI Name="Value" RefNull="1" Unit="0x200001" />
+</OI>
+<OI NAME="CwFl" TYPE="io.point.VoltageInput">
+  <PI Name="ElecBottomOfScale" Value="2"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0xf0008" Value="1010" />
+  <PI Name="InputChannelNumber" Value="10"/> 
+  <PI Name="EngBottomOfScale" Unit="0xf0008" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0xf0008" />
+  <PI Name="Offset" Unit="0xf0008" Value="0" />
+  <PI Name="Value" RefNull="1" Unit="0xf0008" />
+</OI>
+<OI NAME="CwSTmp" TYPE="io.point.TemperatureInput">
+  <PI Name="InputChannelNumber" Value="11"/> 
+  <PI Name="ThermistorType" Value="1"/> 
+</OI>
+<OI NAME="CwSPr" TYPE="io.point.VoltageInput">
+  <PI Name="ElecBottomOfScale" Value="0"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x230003" Value="50" />
+  <PI Name="InputChannelNumber" Value="12"/> 
+  <PI Name="EngBottomOfScale" Unit="0x230003" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x230003" />
+  <PI Name="Offset" Unit="0x230003" Value="0" />
+  <PI Name="Value" RefNull="1" Unit="0x230003" />
+</OI>
+</OI>
+<OI DESCR="SLOT17_UI16" NAME="SLOT17_UI16" TYPE="io.UI16">
+<OI NAME="Ch1CwRFl" TYPE="io.point.VoltageInput">
+  <PI Name="ElecBottomOfScale" Value="2"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0xf0008" Value="700" />
+  <PI Name="InputChannelNumber" Value="1"/> 
+  <PI Name="EngBottomOfScale" Unit="0xf0008" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0xf0008" />
+  <PI Name="Offset" Unit="0xf0008" Value="0" />
+  <PI Name="Value" RefNull="1" Unit="0xf0008" />
+</OI>
+<OI NAME="Ch1CwRTmp" TYPE="io.point.TemperatureInput">
+  <PI Name="InputChannelNumber" Value="2"/> 
+  <PI Name="ThermistorType" Value="1"/> 
+</OI>
+<OI NAME="Ch1CwRPr" TYPE="io.point.VoltageInput">
+  <PI Name="ElecBottomOfScale" Value="0"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x230003" Value="50" />
+  <PI Name="InputChannelNumber" Value="3"/> 
+  <PI Name="EngBottomOfScale" Unit="0x230003" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x230003" />
+  <PI Name="Offset" Unit="0x230003" Value="0" />
+  <PI Name="Value" RefNull="1" Unit="0x230003" />
+</OI>
+<OI NAME="Ch1CwBypVlvPosFbk" TYPE="io.point.VoltageInput">
+  <PI Name="ElecBottomOfScale" Value="2"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x200001" Value="100" />
+  <PI Name="InputChannelNumber" Value="4"/> 
+  <PI Name="EngBottomOfScale" Unit="0x200001" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x200001" />
+  <PI Name="Offset" Unit="0x200001" Value="0" />
+  <PI Name="Value" RefNull="1" Unit="0x200001" />
+</OI>
+<OI NAME="PchwP1Fbk" TYPE="io.point.VoltageInput">
+  <PI Name="ElecBottomOfScale" Value="0"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x200001" Value="100" />
+  <PI Name="InputChannelNumber" Value="5"/> 
+  <PI Name="EngBottomOfScale" Unit="0x200001" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x200001" />
+  <PI Name="Offset" Unit="0x200001" Value="0" />
+  <PI Name="Value" RefNull="1" Unit="0x200001" />
+</OI>
+<OI NAME="Ch1ChwSTmp" TYPE="io.point.TemperatureInput">
+  <PI Name="InputChannelNumber" Value="6"/> 
+  <PI Name="ThermistorType" Value="1"/> 
+</OI>
+<OI NAME="Ch1ChwSPr" TYPE="io.point.VoltageInput">
+  <PI Name="ElecBottomOfScale" Value="0"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x230003" Value="50" />
+  <PI Name="InputChannelNumber" Value="7"/> 
+  <PI Name="EngBottomOfScale" Unit="0x230003" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x230003" />
+  <PI Name="Offset" Unit="0x230003" Value="0" />
+  <PI Name="Value" RefNull="1" Unit="0x230003" />
+</OI>
+<OI NAME="Ch1ChwSFl" TYPE="io.point.VoltageInput">
+  <PI Name="ElecBottomOfScale" Value="2"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0xf0008" Value="650" />
+  <PI Name="InputChannelNumber" Value="8"/> 
+  <PI Name="EngBottomOfScale" Unit="0xf0008" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0xf0008" />
+  <PI Name="Offset" Unit="0xf0008" Value="0" />
+  <PI Name="Value" RefNull="1" Unit="0xf0008" />
+</OI>
+<OI NAME="Ch2CwRFl" TYPE="io.point.VoltageInput">
+  <PI Name="ElecBottomOfScale" Value="2"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0xf0008" Value="700" />
+  <PI Name="InputChannelNumber" Value="9"/> 
+  <PI Name="EngBottomOfScale" Unit="0xf0008" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0xf0008" />
+  <PI Name="Offset" Unit="0xf0008" Value="0" />
+  <PI Name="Value" RefNull="1" Unit="0xf0008" />
+</OI>
+<OI NAME="Ch2CwRTmp" TYPE="io.point.TemperatureInput">
+  <PI Name="InputChannelNumber" Value="10"/> 
+  <PI Name="ThermistorType" Value="1"/> 
+</OI>
+<OI NAME="Ch2CwRPr" TYPE="io.point.VoltageInput">
+  <PI Name="ElecBottomOfScale" Value="0"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x230003" Value="50" />
+  <PI Name="InputChannelNumber" Value="11"/> 
+  <PI Name="EngBottomOfScale" Unit="0x230003" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x230003" />
+  <PI Name="Offset" Unit="0x230003" Value="0" />
+  <PI Name="Value" RefNull="1" Unit="0x230003" />
+</OI>
+<OI NAME="Ch2CwBypVlvPosFbk" TYPE="io.point.VoltageInput">
+  <PI Name="ElecBottomOfScale" Value="2"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x200001" Value="100" />
+  <PI Name="InputChannelNumber" Value="12"/> 
+  <PI Name="EngBottomOfScale" Unit="0x200001" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x200001" />
+  <PI Name="Offset" Unit="0x200001" Value="0" />
+  <PI Name="Value" RefNull="1" Unit="0x200001" />
+</OI>
+<OI NAME="PchwP2Fbk" TYPE="io.point.VoltageInput">
+  <PI Name="ElecBottomOfScale" Value="0"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x200001" Value="100" />
+  <PI Name="InputChannelNumber" Value="13"/> 
+  <PI Name="EngBottomOfScale" Unit="0x200001" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x200001" />
+  <PI Name="Offset" Unit="0x200001" Value="0" />
+  <PI Name="Value" RefNull="1" Unit="0x200001" />
+</OI>
+<OI NAME="Ch2ChwSTmp" TYPE="io.point.TemperatureInput">
+  <PI Name="InputChannelNumber" Value="14"/> 
+  <PI Name="ThermistorType" Value="1"/> 
+</OI>
+<OI NAME="Ch2ChwSPr" TYPE="io.point.VoltageInput">
+  <PI Name="ElecBottomOfScale" Value="0"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x230003" Value="50" />
+  <PI Name="InputChannelNumber" Value="15"/> 
+  <PI Name="EngBottomOfScale" Unit="0x230003" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x230003" />
+  <PI Name="Offset" Unit="0x230003" Value="0" />
+  <PI Name="Value" RefNull="1" Unit="0x230003" />
+</OI>
+<OI NAME="Ch2ChwFl" TYPE="io.point.VoltageInput">
+  <PI Name="ElecBottomOfScale" Value="2"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0xf0008" Value="650" />
+  <PI Name="InputChannelNumber" Value="16"/> 
+  <PI Name="EngBottomOfScale" Unit="0xf0008" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0xf0008" />
+  <PI Name="Offset" Unit="0xf0008" Value="0" />
+  <PI Name="Value" RefNull="1" Unit="0xf0008" />
+</OI>
+</OI>
+<OI DESCR="SLOT18_UI16" NAME="SLOT18_UI16" TYPE="io.UI16">
+<OI NAME="SchwP3AFbk" TYPE="io.point.VoltageInput">
+  <PI Name="ElecBottomOfScale" Value="0"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x200001" Value="100" />
+  <PI Name="InputChannelNumber" Value="1"/> 
+  <PI Name="EngBottomOfScale" Unit="0x200001" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x200001" />
+  <PI Name="Offset" Unit="0x200001" Value="0" />
+  <PI Name="Value" RefNull="1" Unit="0x200001" />
+</OI>
+<OI NAME="SchwP3BFbk" TYPE="io.point.VoltageInput">
+  <PI Name="ElecBottomOfScale" Value="0"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x200001" Value="100" />
+  <PI Name="InputChannelNumber" Value="2"/> 
+  <PI Name="EngBottomOfScale" Unit="0x200001" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x200001" />
+  <PI Name="Offset" Unit="0x200001" Value="0" />
+  <PI Name="Value" RefNull="1" Unit="0x200001" />
+</OI>
+<OI NAME="FCChwSTmp" TYPE="io.point.TemperatureInput">
+  <PI Name="InputChannelNumber" Value="3"/> 
+  <PI Name="ThermistorType" Value="1"/> 
+</OI>
+<OI NAME="FCChwSPr" TYPE="io.point.VoltageInput">
+  <PI Name="ElecBottomOfScale" Value="0"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x230003" Value="50" />
+  <PI Name="InputChannelNumber" Value="4"/> 
+  <PI Name="EngBottomOfScale" Unit="0x230003" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x230003" />
+  <PI Name="Offset" Unit="0x230003" Value="0" />
+  <PI Name="Value" RefNull="1" Unit="0x230003" />
+</OI>
+<OI NAME="FCChwFl" TYPE="io.point.VoltageInput">
+  <PI Name="ElecBottomOfScale" Value="2"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0xf0008" Value="160" />
+  <PI Name="InputChannelNumber" Value="5"/> 
+  <PI Name="EngBottomOfScale" Unit="0xf0008" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0xf0008" />
+  <PI Name="Offset" Unit="0xf0008" Value="0" />
+  <PI Name="Value" RefNull="1" Unit="0xf0008" />
+</OI>
+<OI NAME="HxChwDivVlvPosFbk" TYPE="io.point.VoltageInput">
+  <PI Name="ElecBottomOfScale" Value="2"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x200001" Value="100" />
+  <PI Name="InputChannelNumber" Value="6"/> 
+  <PI Name="EngBottomOfScale" Unit="0x200001" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x200001" />
+  <PI Name="Offset" Unit="0x200001" Value="0" />
+  <PI Name="Value" RefNull="1" Unit="0x200001" />
+</OI>
+<OI NAME="HxChwRTmp" TYPE="io.point.TemperatureInput">
+  <PI Name="InputChannelNumber" Value="7"/> 
+  <PI Name="ThermistorType" Value="1"/> 
+</OI>
+<OI NAME="HxChwRPr" TYPE="io.point.VoltageInput">
+  <PI Name="ElecBottomOfScale" Value="0"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x230003" Value="50" />
+  <PI Name="InputChannelNumber" Value="8"/> 
+  <PI Name="EngBottomOfScale" Unit="0x230003" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x230003" />
+  <PI Name="Offset" Unit="0x230003" Value="0" />
+  <PI Name="Value" RefNull="1" Unit="0x230003" />
+</OI>
+<OI NAME="HxGlyDivVlvPosFbk" TYPE="io.point.VoltageInput">
+  <PI Name="ElecBottomOfScale" Value="2"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x200001" Value="100" />
+  <PI Name="InputChannelNumber" Value="9"/> 
+  <PI Name="EngBottomOfScale" Unit="0x200001" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x200001" />
+  <PI Name="Offset" Unit="0x200001" Value="0" />
+  <PI Name="Value" RefNull="1" Unit="0x200001" />
+</OI>
+<OI NAME="HxGchwRTmp" TYPE="io.point.TemperatureInput">
+  <PI Name="InputChannelNumber" Value="10"/> 
+  <PI Name="ThermistorType" Value="1"/> 
+</OI>
+<OI NAME="HxGchwRPr" TYPE="io.point.VoltageInput">
+  <PI Name="ElecBottomOfScale" Value="0"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x230003" Value="50" />
+  <PI Name="InputChannelNumber" Value="11"/> 
+  <PI Name="EngBottomOfScale" Unit="0x230003" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x230003" />
+  <PI Name="Offset" Unit="0x230003" Value="0" />
+  <PI Name="Value" RefNull="1" Unit="0x230003" />
+</OI>
+<OI NAME="HxGchwSTmp" TYPE="io.point.TemperatureInput">
+  <PI Name="InputChannelNumber" Value="12"/> 
+  <PI Name="ThermistorType" Value="1"/> 
+</OI>
+<OI NAME="HxGchwSPr" TYPE="io.point.VoltageInput">
+  <PI Name="ElecBottomOfScale" Value="0"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x230003" Value="50" />
+  <PI Name="InputChannelNumber" Value="13"/> 
+  <PI Name="EngBottomOfScale" Unit="0x230003" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x230003" />
+  <PI Name="Offset" Unit="0x230003" Value="0" />
+  <PI Name="Value" RefNull="1" Unit="0x230003" />
+</OI>
+<OI NAME="GchwSFl" TYPE="io.point.VoltageInput">
+  <PI Name="ElecBottomOfScale" Value="2"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0xf0008" Value="170" />
+  <PI Name="InputChannelNumber" Value="14"/> 
+  <PI Name="EngBottomOfScale" Unit="0xf0008" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0xf0008" />
+  <PI Name="Offset" Unit="0xf0008" Value="0" />
+  <PI Name="Value" RefNull="1" Unit="0xf0008" />
+</OI>
+</OI>
+<OI DESCR="SLOT19_UI16" NAME="SLOT19_UI16" TYPE="io.UI16">
+<OI NAME="SchwP1Fbk" TYPE="io.point.VoltageInput">
+  <PI Name="ElecBottomOfScale" Value="0"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x200001" Value="100" />
+  <PI Name="InputChannelNumber" Value="1"/> 
+  <PI Name="EngBottomOfScale" Unit="0x200001" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x200001" />
+  <PI Name="Offset" Unit="0x200001" Value="0" />
+  <PI Name="Value" RefNull="1" Unit="0x200001" />
+</OI>
+<OI NAME="SchwP2Fbk" TYPE="io.point.VoltageInput">
+  <PI Name="ElecBottomOfScale" Value="0"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x200001" Value="100" />
+  <PI Name="InputChannelNumber" Value="2"/> 
+  <PI Name="EngBottomOfScale" Unit="0x200001" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x200001" />
+  <PI Name="Offset" Unit="0x200001" Value="0" />
+  <PI Name="Value" RefNull="1" Unit="0x200001" />
+</OI>
+<OI NAME="SchwSTmp" TYPE="io.point.TemperatureInput">
+  <PI Name="InputChannelNumber" Value="3"/> 
+  <PI Name="ThermistorType" Value="1"/> 
+</OI>
+<OI NAME="SchwSPr" TYPE="io.point.VoltageInput">
+  <PI Name="ElecBottomOfScale" Value="0"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x230003" Value="50" />
+  <PI Name="InputChannelNumber" Value="4"/> 
+  <PI Name="EngBottomOfScale" Unit="0x230003" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x230003" />
+  <PI Name="Offset" Unit="0x230003" Value="0" />
+  <PI Name="Value" RefNull="1" Unit="0x230003" />
+</OI>
+<OI NAME="SchwSFl" TYPE="io.point.VoltageInput">
+  <PI Name="ElecBottomOfScale" Value="2"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0xf0008" Value="630" />
+  <PI Name="InputChannelNumber" Value="5"/> 
+  <PI Name="EngBottomOfScale" Unit="0xf0008" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0xf0008" />
+  <PI Name="Offset" Unit="0xf0008" Value="0" />
+  <PI Name="Value" RefNull="1" Unit="0xf0008" />
+</OI>
+<OI NAME="FcuLpMixVlvPosFbk" TYPE="io.point.VoltageInput">
+  <PI Name="ElecBottomOfScale" Value="2"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x200001" Value="100" />
+  <PI Name="InputChannelNumber" Value="6"/> 
+  <PI Name="EngBottomOfScale" Unit="0x200001" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x200001" />
+  <PI Name="Offset" Unit="0x200001" Value="0" />
+  <PI Name="Value" RefNull="1" Unit="0x200001" />
+</OI>
+<OI NAME="FiuLpDivVlvPosFbk" TYPE="io.point.VoltageInput">
+  <PI Name="ElecBottomOfScale" Value="2"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x200001" Value="100" />
+  <PI Name="InputChannelNumber" Value="7"/> 
+  <PI Name="EngBottomOfScale" Unit="0x200001" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x200001" />
+  <PI Name="Offset" Unit="0x200001" Value="0" />
+  <PI Name="Value" RefNull="1" Unit="0x200001" />
+</OI>
+<OI NAME="FiuLpMixVlvPosFbk" TYPE="io.point.VoltageInput">
+  <PI Name="ElecBottomOfScale" Value="2"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x200001" Value="100" />
+  <PI Name="InputChannelNumber" Value="8"/> 
+  <PI Name="EngBottomOfScale" Unit="0x200001" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x200001" />
+  <PI Name="Offset" Unit="0x200001" Value="0" />
+  <PI Name="Value" RefNull="1" Unit="0x200001" />
+</OI>
+<OI NAME="RclChwSFl" TYPE="io.point.VoltageInput">
+  <PI Name="ElecBottomOfScale" Value="2"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0xf0008" Value="50" />
+  <PI Name="InputChannelNumber" Value="9"/> 
+  <PI Name="EngBottomOfScale" Unit="0xf0008" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0xf0008" />
+  <PI Name="Offset" Unit="0xf0008" Value="0" />
+  <PI Name="Value" RefNull="1" Unit="0xf0008" />
+</OI>
+<OI NAME="ChwERUSTmp" TYPE="io.point.TemperatureInput">
+  <PI Name="InputChannelNumber" Value="10"/> 
+  <PI Name="ThermistorType" Value="1"/> 
+</OI>
+<OI NAME="ChwERUSPr" TYPE="io.point.VoltageInput">
+  <PI Name="ElecBottomOfScale" Value="0"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x230003" Value="50" />
+  <PI Name="InputChannelNumber" Value="11"/> 
+  <PI Name="EngBottomOfScale" Unit="0x230003" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x230003" />
+  <PI Name="Offset" Unit="0x230003" Value="0" />
+  <PI Name="Value" RefNull="1" Unit="0x230003" />
+</OI>
+<OI NAME="ChwERURTmp" TYPE="io.point.TemperatureInput">
+  <PI Name="InputChannelNumber" Value="12"/> 
+  <PI Name="ThermistorType" Value="1"/> 
+</OI>
+<OI NAME="ChwERURPr" TYPE="io.point.VoltageInput">
+  <PI Name="ElecBottomOfScale" Value="0"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x230003" Value="50" />
+  <PI Name="InputChannelNumber" Value="13"/> 
+  <PI Name="EngBottomOfScale" Unit="0x230003" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x230003" />
+  <PI Name="Offset" Unit="0x230003" Value="0" />
+  <PI Name="Value" RefNull="1" Unit="0x230003" />
+</OI>
+<OI NAME="ERUChwBypVlvPosFbk" TYPE="io.point.VoltageInput">
+  <PI Name="ElecBottomOfScale" Value="2"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x200001" Value="100" />
+  <PI Name="InputChannelNumber" Value="14"/> 
+  <PI Name="EngBottomOfScale" Unit="0x200001" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x200001" />
+  <PI Name="Offset" Unit="0x200001" Value="0" />
+  <PI Name="Value" RefNull="1" Unit="0x200001" />
+</OI>
+</OI>
+<OI DESCR="SLOT20_UI16" NAME="SLOT20_UI16" TYPE="io.UI16">
+<OI NAME="SchwP4Fbk" TYPE="io.point.VoltageInput">
+  <PI Name="ElecBottomOfScale" Value="0"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x200001" Value="100" />
+  <PI Name="InputChannelNumber" Value="1"/> 
+  <PI Name="EngBottomOfScale" Unit="0x200001" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x200001" />
+  <PI Name="Offset" Unit="0x200001" Value="0" />
+  <PI Name="Value" RefNull="1" Unit="0x200001" />
+</OI>
+<OI NAME="SchwP5Fbk" TYPE="io.point.VoltageInput">
+  <PI Name="ElecBottomOfScale" Value="0"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x200001" Value="100" />
+  <PI Name="InputChannelNumber" Value="2"/> 
+  <PI Name="EngBottomOfScale" Unit="0x200001" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x200001" />
+  <PI Name="Offset" Unit="0x200001" Value="0" />
+  <PI Name="Value" RefNull="1" Unit="0x200001" />
+</OI>
+<OI NAME="IndChwSFl" TYPE="io.point.VoltageInput">
+  <PI Name="ElecBottomOfScale" Value="2"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0xf0008" Value="120" />
+  <PI Name="InputChannelNumber" Value="3"/> 
+  <PI Name="EngBottomOfScale" Unit="0xf0008" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0xf0008" />
+  <PI Name="Offset" Unit="0xf0008" Value="0" />
+  <PI Name="Value" RefNull="1" Unit="0xf0008" />
+</OI>
+<OI NAME="IndChwSTmp" TYPE="io.point.TemperatureInput">
+  <PI Name="InputChannelNumber" Value="4"/> 
+  <PI Name="ThermistorType" Value="1"/> 
+</OI>
+<OI NAME="IndChwSPr" TYPE="io.point.VoltageInput">
+  <PI Name="ElecBottomOfScale" Value="0"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x230003" Value="50" />
+  <PI Name="InputChannelNumber" Value="5"/> 
+  <PI Name="EngBottomOfScale" Unit="0x230003" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x230003" />
+  <PI Name="Offset" Unit="0x230003" Value="0" />
+  <PI Name="Value" RefNull="1" Unit="0x230003" />
+</OI>
+<OI NAME="IndChwBypVlvPosFbk" TYPE="io.point.VoltageInput">
+  <PI Name="ElecBottomOfScale" Value="2"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x200001" Value="100" />
+  <PI Name="InputChannelNumber" Value="6"/> 
+  <PI Name="EngBottomOfScale" Unit="0x200001" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x200001" />
+  <PI Name="Offset" Unit="0x200001" Value="0" />
+  <PI Name="Value" RefNull="1" Unit="0x200001" />
+</OI>
+<OI NAME="IndChwDifPr" TYPE="io.point.VoltageInput">
+  <PI Name="ElecBottomOfScale" Value="0"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x230003" Value="100" />
+  <PI Name="InputChannelNumber" Value="7"/> 
+  <PI Name="EngBottomOfScale" Unit="0x230003" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x230003" />
+  <PI Name="Offset" Unit="0x230003" Value="0" />
+  <PI Name="Value" RefNull="1" Unit="0x230003" />
+</OI>
+<OI NAME="IndChwRTmp" TYPE="io.point.TemperatureInput">
+  <PI Name="InputChannelNumber" Value="8"/> 
+  <PI Name="ThermistorType" Value="1"/> 
+</OI>
+<OI NAME="RclChwSTmp" TYPE="io.point.TemperatureInput">
+  <PI Name="InputChannelNumber" Value="9"/> 
+  <PI Name="ThermistorType" Value="1"/> 
+</OI>
+<OI NAME="RclChwSPr" TYPE="io.point.VoltageInput">
+  <PI Name="ElecBottomOfScale" Value="0"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x230003" Value="50" />
+  <PI Name="InputChannelNumber" Value="10"/> 
+  <PI Name="EngBottomOfScale" Unit="0x230003" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x230003" />
+  <PI Name="Offset" Unit="0x230003" Value="0" />
+  <PI Name="Value" RefNull="1" Unit="0x230003" />
+</OI>
+<OI NAME="RclChwRTmp" TYPE="io.point.TemperatureInput">
+  <PI Name="InputChannelNumber" Value="11"/> 
+  <PI Name="ThermistorType" Value="1"/> 
+</OI>
+<OI NAME="RclChwDifPr" TYPE="io.point.VoltageInput">
+  <PI Name="ElecBottomOfScale" Value="0"/> 
+  <PI Name="ElecTopOfScale" Value="10"/> 
+  <PI Name="EngTopOfScale" Unit="0x230003" Value="100" />
+  <PI Name="InputChannelNumber" Value="12"/> 
+  <PI Name="EngBottomOfScale" Unit="0x230003" Value="0" />
+  <PI Name="LogArray" RefNull="1" Unit="0x230003" />
+  <PI Name="Offset" Unit="0x230003" Value="0" />
+  <PI Name="Value" RefNull="1" Unit="0x230003" />
+</OI>
+</OI>
+</ExportedObjects>
+</ObjectSet>
